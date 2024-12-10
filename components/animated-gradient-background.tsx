@@ -17,7 +17,7 @@ export function AnimatedGradientBackground() {
       ease: 'none'
     })
 
-    return () => tl.kill()
+    return () => {tl.kill()}
   }, [])
 
   return (
