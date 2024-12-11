@@ -3,25 +3,13 @@
 import { useState } from "react"
 import { motion } from "framer-motion"
 import { Button } from "@/components/ui/button"
-import { Textarea } from "@/components/ui/textarea"
-import {
-  Select,
-  SelectContent,
-  SelectItem,
-  SelectTrigger,
-  SelectValue,
-} from "@/components/ui/select"
-import { ArrowRight, Copy, Volume2, VolumeX } from "lucide-react"
+import { ArrowRight, Copy } from "lucide-react"
 import DashboardNav from "@/components/dashboard-nav"
-import { useSpeech } from "@/lib/hooks/use-speech"
 import { AnimatedGradientBackground } from "@/components/animated-gradient-background"
-
-const LANGUAGE_CODES: Record<string, string> = {
-  en: "en-US",
-  es: "es-ES",
-  fr: "fr-FR",
-  de: "de-DE",
-}
+import { LanguageSelector } from "@/components/translate/language-selector"
+import { TranslationInput } from "@/components/translate/translation-input"
+import { LanguageSwap } from "@/components/translate/language-swap"
+import { TranslationHistory } from "@/components/translate/translation-history"
 
 export default function TranslatePage() {
   const [isTranslating, setIsTranslating] = useState(false)
@@ -29,8 +17,6 @@ export default function TranslatePage() {
   const [translatedText, setTranslatedText] = useState("")
   const [sourceLang, setSourceLang] = useState("en")
   const [targetLang, setTargetLang] = useState("es")
-  
-  const { speak, stop, isSpeaking } = useSpeech()
 
   const handleTranslate = () => {
     setIsTranslating(true)
@@ -41,19 +27,18 @@ export default function TranslatePage() {
     }, 1000)
   }
 
-  const handleSpeak = (text: string, lang: string) => {
-    if (isSpeaking) {
-      stop()
-    } else {
-      speak(text, LANGUAGE_CODES[lang])
-    }
+  const handleSwapLanguages = () => {
+    setSourceLang(targetLang)
+    setTargetLang(sourceLang)
+    setSourceText(translatedText)
+    setTranslatedText(sourceText)
   }
 
   return (
     <div className="min-h-screen bg-background relative">
       <AnimatedGradientBackground />
       <DashboardNav />
-      
+
       <main className="container mx-auto px-4 py-8 relative">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -61,81 +46,44 @@ export default function TranslatePage() {
           transition={{ duration: 0.5 }}
           className="max-w-4xl mx-auto"
         >
-          <h1 className="text-3xl font-bold mb-8">Translate</h1>
-          
+          <h1 className="text-3xl font-bold mb-8 gradient-text">Translate</h1>
+
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div className="space-y-4">
-              <Select 
+              <LanguageSelector
                 value={sourceLang}
-                onValueChange={setSourceLang}
-              >
-                <SelectTrigger>
-                  <SelectValue placeholder="Select source language" />
-                </SelectTrigger>
-                <SelectContent>
-                  <SelectItem value="en">English</SelectItem>
-                  <SelectItem value="es">Spanish</SelectItem>
-                  <SelectItem value="fr">French</SelectItem>
-                  <SelectItem value="de">German</SelectItem>
-                </SelectContent>
-              </Select>
-              
-              <div className="relative">
-                <Textarea
-                  placeholder="Enter text to translate"
-                  className="h-[200px] glass-morphism pr-12"
-                  value={sourceText}
-                  onChange={(e) => setSourceText(e.target.value)}
-                />
-                <Button
-                  size="icon"
-                  variant="ghost"
-                  className="absolute right-2 top-2"
-                  onClick={() => handleSpeak(sourceText, sourceLang)}
-                  disabled={!sourceText}
-                >
-                  {isSpeaking ? <VolumeX className="h-4 w-4" /> : <Volume2 className="h-4 w-4" />}
-                </Button>
-              </div>
+                onChange={setSourceLang}
+                type="source"
+              />
+
+              <TranslationInput
+                value={sourceText}
+                onChange={setSourceText}
+                placeholder="Enter text to translate"
+                lang={sourceLang}
+              />
             </div>
 
             <div className="space-y-4">
-              <Select
-                value={targetLang}
-                onValueChange={setTargetLang}
-              >
-                <SelectTrigger>
-                  <SelectValue placeholder="Select target language" />
-                </SelectTrigger>
-                <SelectContent>
-                  <SelectItem value="en">English</SelectItem>
-                  <SelectItem value="es">Spanish</SelectItem>
-                  <SelectItem value="fr">French</SelectItem>
-                  <SelectItem value="de">German</SelectItem>
-                </SelectContent>
-              </Select>
-              
-              <div className="relative">
-                <Textarea
-                  placeholder="Translation will appear here"
-                  className="h-[200px] glass-morphism pr-12"
-                  value={translatedText}
-                  readOnly
+              <div className="flex items-center justify-between">
+                <LanguageSelector
+                  value={targetLang}
+                  onChange={setTargetLang}
+                  type="target"
                 />
-                <Button
-                  size="icon"
-                  variant="ghost"
-                  className="absolute right-2 top-2"
-                  onClick={() => handleSpeak(translatedText, targetLang)}
-                  disabled={!translatedText}
-                >
-                  {isSpeaking ? <VolumeX className="h-4 w-4" /> : <Volume2 className="h-4 w-4" />}
-                </Button>
+                <LanguageSwap onSwap={handleSwapLanguages} />
               </div>
+
+              <TranslationInput
+                value={translatedText}
+                placeholder="Translation will appear here"
+                lang={targetLang}
+                readOnly
+              />
             </div>
           </div>
 
-          <motion.div 
+          <motion.div
             className="flex justify-center mt-8 space-x-4"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
@@ -148,7 +96,10 @@ export default function TranslatePage() {
               className="min-w-[150px]"
             >
               {isTranslating ? (
-                "Translating..."
+                <>
+                  <div className="loading-spinner mr-2" />
+                  Translating...
+                </>
               ) : (
                 <>
                   Translate
@@ -156,17 +107,11 @@ export default function TranslatePage() {
                 </>
               )}
             </Button>
-            
-            <Button
-              size="lg"
-              variant="outline"
-              onClick={() => navigator.clipboard.writeText(translatedText)}
-              disabled={!translatedText}
-            >
-              <Copy className="mr-2 h-4 w-4" />
-              Copy
-            </Button>
           </motion.div>
+
+          <div className="mt-12">
+            <TranslationHistory />
+          </div>
         </motion.div>
       </main>
     </div>
