@@ -1,8 +1,8 @@
 "use client"
 
-import { useEffect, useRef } from 'react'
-import { motion } from 'framer-motion'
-import { GlobeIcon, Languages, MessageCircle, FileText } from 'lucide-react'
+import { useEffect, useRef } from "react"
+import { motion } from "framer-motion"
+import { FileText, GlobeIcon, Languages, MessageCircle } from "lucide-react"
 
 const icons = [GlobeIcon, Languages, MessageCircle, FileText]
 
@@ -27,8 +27,8 @@ export function FloatingIcons() {
             repeatType: "reverse",
           }}
           style={{
-            left: `${20 + (index * 25)}%`,
-            top: `${20 + (index * 15)}%`,
+            left: `${20 + index * 25}%`,
+            top: `${20 + index * 15}%`,
           }}
         >
           <Icon size={40} />

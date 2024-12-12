@@ -1,20 +1,29 @@
 "use client"
 
-import { motion } from "framer-motion"
-import { Card } from "@/components/ui/card"
-import { Button } from "@/components/ui/button"
 import { useRouter } from "next/navigation"
+import { motion } from "framer-motion"
+import {
+  CartesianGrid,
+  Line,
+  LineChart,
+  ResponsiveContainer,
+  Tooltip,
+  XAxis,
+  YAxis,
+} from "recharts"
+
+import { Button } from "@/components/ui/button"
+import { Card } from "@/components/ui/card"
 import DashboardNav from "@/components/dashboard-nav"
-import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer } from 'recharts'
 
 const data = [
-  { name: 'Mon', translations: 4 },
-  { name: 'Tue', translations: 3 },
-  { name: 'Wed', translations: 7 },
-  { name: 'Thu', translations: 5 },
-  { name: 'Fri', translations: 8 },
-  { name: 'Sat', translations: 6 },
-  { name: 'Sun', translations: 9 },
+  { name: "Mon", translations: 4 },
+  { name: "Tue", translations: 3 },
+  { name: "Wed", translations: 7 },
+  { name: "Thu", translations: 5 },
+  { name: "Fri", translations: 8 },
+  { name: "Sat", translations: 6 },
+  { name: "Sun", translations: 9 },
 ]
 
 export default function DashboardPage() {

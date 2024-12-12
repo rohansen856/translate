@@ -1,11 +1,11 @@
 "use client"
 
-import { useState, useCallback } from 'react'
+import { useCallback, useState } from "react"
 
 export function useSpeech() {
   const [isSpeaking, setIsSpeaking] = useState(false)
 
-  const speak = useCallback((text: string, lang: string = 'en-US') => {
+  const speak = useCallback((text: string, lang: string = "en-US") => {
     if (!window.speechSynthesis) return
 
     // Cancel any ongoing speech

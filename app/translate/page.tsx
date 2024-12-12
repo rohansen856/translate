@@ -2,14 +2,15 @@
 
 import { useState } from "react"
 import { motion } from "framer-motion"
-import { Button } from "@/components/ui/button"
 import { ArrowRight, Copy } from "lucide-react"
-import DashboardNav from "@/components/dashboard-nav"
+
+import { Button } from "@/components/ui/button"
 import { AnimatedGradientBackground } from "@/components/animated-gradient-background"
+import DashboardNav from "@/components/dashboard-nav"
 import { LanguageSelector } from "@/components/translate/language-selector"
-import { TranslationInput } from "@/components/translate/translation-input"
 import { LanguageSwap } from "@/components/translate/language-swap"
 import { TranslationHistory } from "@/components/translate/translation-history"
+import { TranslationInput } from "@/components/translate/translation-input"
 
 export default function TranslatePage() {
   const [isTranslating, setIsTranslating] = useState(false)

@@ -1,12 +1,13 @@
 "use client"
 
 import { useState } from "react"
-import { motion } from "framer-motion"
-import { Button } from "@/components/ui/button"
-import { Input } from "@/components/ui/input"
-import { Card } from "@/components/ui/card"
 import { useRouter } from "next/navigation"
+import { motion } from "framer-motion"
 import { GlobeIcon } from "lucide-react"
+
+import { Button } from "@/components/ui/button"
+import { Card } from "@/components/ui/card"
+import { Input } from "@/components/ui/input"
 
 export default function LoginPage() {
   const [isLoading, setIsLoading] = useState(false)
@@ -36,7 +37,7 @@ export default function LoginPage() {
             <p className="text-muted-foreground text-center">
               Sign in to access your translation dashboard
             </p>
-            
+
             <form onSubmit={handleSubmit} className="w-full space-y-4">
               <div className="space-y-2">
                 <Input
@@ -54,15 +55,11 @@ export default function LoginPage() {
                   className="w-full"
                 />
               </div>
-              <Button
-                type="submit"
-                className="w-full"
-                disabled={isLoading}
-              >
+              <Button type="submit" className="w-full" disabled={isLoading}>
                 {isLoading ? "Signing in..." : "Sign In"}
               </Button>
             </form>
-            
+
             <div className="text-sm text-muted-foreground">
               Don't have an account?{" "}
               <Button

@@ -2,8 +2,9 @@
 
 import { useState } from "react"
 import { motion } from "framer-motion"
+import { Plus, Trash2 } from "lucide-react"
+
 import { Button } from "@/components/ui/button"
-import { Textarea } from "@/components/ui/textarea"
 import {
   Select,
   SelectContent,
@@ -11,7 +12,7 @@ import {
   SelectTrigger,
   SelectValue,
 } from "@/components/ui/select"
-import { Plus, Trash2 } from "lucide-react"
+import { Textarea } from "@/components/ui/textarea"
 import DashboardNav from "@/components/dashboard-nav"
 
 export default function MultiTranslatePage() {
@@ -20,18 +21,21 @@ export default function MultiTranslatePage() {
   ])
 
   const addTranslation = () => {
-    const newId = Math.max(...translations.map(t => t.id)) + 1
-    setTranslations([...translations, { id: newId, text: "", targetLang: "es" }])
+    const newId = Math.max(...translations.map((t) => t.id)) + 1
+    setTranslations([
+      ...translations,
+      { id: newId, text: "", targetLang: "es" },
+    ])
   }
 
   const removeTranslation = (id: number) => {
-    setTranslations(translations.filter(t => t.id !== id))
+    setTranslations(translations.filter((t) => t.id !== id))
   }
 
   const updateTranslation = (id: number, field: string, value: string) => {
-    setTranslations(translations.map(t => 
-      t.id === id ? { ...t, [field]: value } : t
-    ))
+    setTranslations(
+      translations.map((t) => (t.id === id ? { ...t, [field]: value } : t))
+    )
   }
 
   return (
@@ -80,7 +84,7 @@ export default function MultiTranslatePage() {
                     <div className="md:col-span-1">
                       <Select
                         value={translation.targetLang}
-                        onValueChange={(value) => 
+                        onValueChange={(value) =>
                           updateTranslation(translation.id, "targetLang", value)
                         }
                       >
@@ -99,8 +103,12 @@ export default function MultiTranslatePage() {
                       <Textarea
                         placeholder="Translation will appear here"
                         value={translation.text}
-                        onChange={(e) => 
-                          updateTranslation(translation.id, "text", e.target.value)
+                        onChange={(e) =>
+                          updateTranslation(
+                            translation.id,
+                            "text",
+                            e.target.value
+                          )
                         }
                         className="h-[100px]"
                         readOnly
@@ -112,17 +120,12 @@ export default function MultiTranslatePage() {
             </div>
 
             <div className="flex justify-between">
-              <Button
-                variant="outline"
-                onClick={addTranslation}
-              >
+              <Button variant="outline" onClick={addTranslation}>
                 <Plus className="mr-2 h-4 w-4" />
                 Add Language
               </Button>
-              
-              <Button size="lg">
-                Translate All
-              </Button>
+
+              <Button size="lg">Translate All</Button>
             </div>
           </div>
         </motion.div>

@@ -1,20 +1,22 @@
-import './globals.css';
-import type { Metadata } from 'next';
-import { Inter } from 'next/font/google';
-import { ThemeProvider } from '@/components/theme-provider';
-import { Toaster } from '@/components/ui/toaster';
+import "./globals.css"
 
-const inter = Inter({ subsets: ['latin'] });
+import type { Metadata } from "next"
+import { Inter } from "next/font/google"
+
+import { Toaster } from "@/components/ui/toaster"
+import { ThemeProvider } from "@/components/theme-provider"
+
+const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: 'Translate Hub - Modern Translation Platform',
-  description: 'A modern and intuitive translation platform for all your needs',
-};
+  title: "Translate Hub - Modern Translation Platform",
+  description: "A modern and intuitive translation platform for all your needs",
+}
 
 export default function RootLayout({
   children,
 }: {
-  children: React.ReactNode;
+  children: React.ReactNode
 }) {
   return (
     <html lang="en" suppressHydrationWarning>
@@ -30,5 +32,5 @@ export default function RootLayout({
         </ThemeProvider>
       </body>
     </html>
-  );
+  )
 }
