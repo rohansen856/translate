@@ -26,13 +26,13 @@ export function AlphabetGrid({ language, searchQuery }: AlphabetGridProps) {
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       transition={{ duration: 0.5 }}
-      className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 mt-8"
+      className="mt-8 grid grid-cols-2 gap-4 md:grid-cols-3 lg:grid-cols-4"
     >
       {isLoading ? (
         Array.from({ length: 12 }).map((_, index) => (
           <div
             key={index}
-            className="h-40 rounded-lg glass-morphism animate-pulse"
+            className="glass-morphism h-40 animate-pulse rounded-lg"
           />
         ))
       ) : filteredAlphabets.length > 0 ? (
@@ -44,6 +44,7 @@ export function AlphabetGrid({ language, searchQuery }: AlphabetGridProps) {
             transition={{ delay: index * 0.05 }}
           >
             <AlphabetCard
+            index={alphabet.index}
               character={alphabet.character}
               romanization={alphabet.romanization}
               pronunciation={alphabet.pronunciation}
@@ -52,7 +53,7 @@ export function AlphabetGrid({ language, searchQuery }: AlphabetGridProps) {
           </motion.div>
         ))
       ) : (
-        <div className="col-span-full text-center py-8 text-muted-foreground">
+        <div className="text-muted-foreground col-span-full py-8 text-center">
           No alphabets found matching your search.
         </div>
       )}

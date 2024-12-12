@@ -1,0 +1,7 @@
+[
+    { "index": 1, "character": "あ", "romanization": "a", "pronunciation": "ah", "examples": [ { "word": "あめ (ame)", "meaning": "rain" }, { "word": "あか (aka)", "meaning": "red" } ] },
+    { "index": 2, "character": "い", "romanization": "i", "pronunciation": "ee", "examples": [ { "word": "いぬ (inu)", "meaning": "dog" }, { "word": "いし (ishi)", "meaning": "stone" } ] },
+    { "index": 3, "character": "う", "romanization": "u", "pronunciation": "oo", "examples": [ { "word": "うみ (umi)", "meaning": "sea" }, { "word": "うた (uta)", "meaning": "song" } ] },
+    { "index": 4, "character": "え", "romanization": "e", "pronunciation": "eh", "examples": [ { "word": "えき (eki)", "meaning": "station" }, { "word": "えん (en)", "meaning": "yen" } ] },
+    { "index": 5, "character": "お", "romanization": "o", "pronunciation": "oh", "examples": [ { "word": "おか (oka)", "meaning": "hill" }, { "word": "おんがく (ongaku)", "meaning": "music" } ] }
+]

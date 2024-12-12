@@ -14,7 +14,7 @@ export default function AlphabetsPage() {
   const [searchQuery, setSearchQuery] = useState("")
 
   return (
-    <div className="min-h-screen bg-background relative">
+    <div className="bg-background relative min-h-screen">
       <AnimatedGradientBackground />
       <DashboardNav />
 
@@ -23,9 +23,9 @@ export default function AlphabetsPage() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}
-          className="max-w-4xl mx-auto"
+          className="mx-auto max-w-4xl"
         >
-          <h1 className="text-3xl font-bold mb-8 gradient-text">
+          <h1 className="gradient-text mb-8 text-3xl font-bold">
             Language Alphabets
           </h1>
 

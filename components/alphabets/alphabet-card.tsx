@@ -9,6 +9,7 @@ import { Button } from "@/components/ui/button"
 import { Card } from "@/components/ui/card"
 
 interface AlphabetCardProps {
+  index: number
   character: string
   romanization: string
   pronunciation: string
@@ -19,6 +20,7 @@ interface AlphabetCardProps {
 }
 
 export function AlphabetCard({
+  index,
   character,
   romanization,
   pronunciation,
@@ -32,9 +34,9 @@ export function AlphabetCard({
   }
 
   return (
-    <div className="relative h-40 perspective">
+    <div className="perspective relative h-40">
       <motion.div
-        className="w-full h-full"
+        className="size-full"
         initial={false}
         animate={{ rotateY: isFlipped ? 180 : 0 }}
         transition={{ duration: 0.6, type: "spring" }}
@@ -42,9 +44,9 @@ export function AlphabetCard({
         style={{ transformStyle: "preserve-3d" }}
       >
         {/* Front of card */}
-        <Card className="absolute w-full h-full glass-morphism p-4 flex flex-col items-center justify-center cursor-pointer backface-hidden">
-          <span className="text-4xl font-bold mb-2">{character}</span>
-          <span className="text-lg text-muted-foreground">{romanization}</span>
+        <Card className="glass-morphism backface-hidden absolute flex size-full cursor-pointer flex-col items-center justify-center p-4">
+          <span className="mb-2 text-4xl font-bold">{character}</span>
+          <span className="text-muted-foreground text-lg">{romanization}</span>
           <Button
             size="icon"
             variant="ghost"
@@ -52,27 +54,32 @@ export function AlphabetCard({
               e.stopPropagation()
               handleSpeak()
             }}
-            className="absolute top-2 right-2 opacity-50 hover:opacity-100"
+            className="absolute right-2 top-2 opacity-50 hover:opacity-100"
           >
             <Volume2
-              className={`h-4 w-4 ${isSpeaking ? "text-primary" : ""}`}
+              className={`size-4 ${isSpeaking ? "text-primary" : ""}`}
             />
           </Button>
+          <p
+            className="bg-secondary/50 absolute left-4 top-4 rounded-full border p-1 opacity-50 hover:opacity-100"
+          >
+            {index}
+          </p>
         </Card>
 
         {/* Back of card */}
         <Card
-          className="absolute w-full h-full glass-morphism p-4 cursor-pointer backface-hidden"
+          className="glass-morphism backface-hidden absolute size-full cursor-pointer p-4"
           style={{ transform: "rotateY(180deg)" }}
         >
-          <div className="h-full flex flex-col">
-            <p className="text-sm mb-2">
+          <div className="flex h-full flex-col">
+            <p className="mb-2 text-sm">
               <span className="font-medium">Pronunciation:</span>{" "}
               {pronunciation}
             </p>
             <div className="flex-1">
-              <p className="text-sm font-medium mb-1">Examples:</p>
-              <ul className="text-sm space-y-1">
+              <p className="mb-1 text-sm font-medium">Examples:</p>
+              <ul className="space-y-1 text-sm">
                 {examples.map((example, index) => (
                   <li key={index} className="text-muted-foreground">
                     {example.word} - {example.meaning}

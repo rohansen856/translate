@@ -42,9 +42,9 @@ export function LanguageSelector({
       transition={{ duration: 0.3 }}
       className="flex items-center space-x-2"
     >
-      <Languages className="h-5 w-5 text-muted-foreground" />
+      <Languages className="text-muted-foreground size-5" />
       <Select value={value} onValueChange={onChange}>
-        <SelectTrigger className="w-[180px] glass-morphism">
+        <SelectTrigger className="glass-morphism w-[180px]">
           <SelectValue placeholder={`Select ${type} language`} />
         </SelectTrigger>
         <SelectContent>

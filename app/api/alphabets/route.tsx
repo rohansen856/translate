@@ -7,7 +7,6 @@ const requestSchema = z.object({
 export async function POST(req: Request) {
   try {
     const body = await req.json()
-    console.log(body)
     const { lang } = requestSchema.parse(body);
 
     const fileUrl = `${process.env.NEXT_PUBLIC_BASE_URL || "http://localhost:3000"}/${lang}.json`;
