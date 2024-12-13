@@ -37,12 +37,11 @@ export function CountryModal({ country, onClose }: CountryModalProps) {
             transition={{ duration: 0.3 }}
             className="bg-background/50 relative aspect-video rounded-lg p-4"
           >
-            {/* <div dangerouslySetInnerHTML={{ __html: country.svgMap }} /> */}
             <Image
-              src={`/flags/${country.code}.svg`}
+              src={`/countries/${country.code}.svg`}
               alt={country.name}
               fill
-              className="object-contain"
+              className="object-contain "
             />
           </motion.div>
 

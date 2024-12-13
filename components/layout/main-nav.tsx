@@ -23,6 +23,7 @@ const mainNavItems = [
       { title: "Document Translation", href: "/translate/file" },
       { title: "Batch Translation", href: "/translate/multi" },
       { title: "Language Alphabets", href: "/alphabets" },
+      { title: "Language Country Map", href: "/language-maps" },
     ],
   },
   {
