@@ -13,10 +13,10 @@ export default function DashboardNav() {
 
   return (
     <nav className="border-b">
-      <div className="container mx-auto px-4 h-16 flex items-center justify-between">
+      <div className="container mx-auto flex h-16 items-center justify-between px-4">
         <Link href={"/"} className="flex items-center space-x-4">
-          <GlobeIcon className="h-6 w-6 text-primary" />
-          <span className="font-bold text-lg">Translate Hub</span>
+          <GlobeIcon className="text-primary size-6" />
+          <span className="text-lg font-bold">Translate Hub</span>
         </Link>
 
         <div className="flex items-center space-x-4">
@@ -25,7 +25,7 @@ export default function DashboardNav() {
             size="sm"
             onClick={() => router.push("/settings")}
           >
-            <Settings className="h-4 w-4 mr-2" />
+            <Settings className="mr-2 size-4" />
             Settings
           </Button>
           <ModeToggle />
@@ -33,8 +33,9 @@ export default function DashboardNav() {
             variant="ghost"
             size="sm"
             onClick={() => router.push("/login")}
+            className="hidden md:flex"
           >
-            <LogOut className="h-4 w-4 mr-2" />
+            <LogOut className="mr-2 size-4" />
             Sign Out
           </Button>
         </div>

@@ -1,5 +1,6 @@
 "use client"
 
+import { Alphabet } from "@/types"
 import { motion } from "framer-motion"
 
 import { useAlphabets } from "@/lib/hooks/use-alphabets"
@@ -9,9 +10,14 @@ import { AlphabetCard } from "./alphabet-card"
 interface AlphabetGridProps {
   language: string
   searchQuery: string
+  setSelectedAlphabet: (data: Alphabet) => void
 }
 
-export function AlphabetGrid({ language, searchQuery }: AlphabetGridProps) {
+export function AlphabetGrid({
+  language,
+  searchQuery,
+  setSelectedAlphabet,
+}: AlphabetGridProps) {
   const { alphabets, isLoading } = useAlphabets(language)
 
   const filteredAlphabets = alphabets.filter(
@@ -44,11 +50,12 @@ export function AlphabetGrid({ language, searchQuery }: AlphabetGridProps) {
             transition={{ delay: index * 0.05 }}
           >
             <AlphabetCard
-            index={alphabet.index}
+              index={alphabet.index}
               character={alphabet.character}
               romanization={alphabet.romanization}
               pronunciation={alphabet.pronunciation}
               examples={alphabet.examples}
+              setSelectedAlphabet={setSelectedAlphabet}
             />
           </motion.div>
         ))

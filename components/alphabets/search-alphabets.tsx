@@ -24,13 +24,13 @@ export function SearchAlphabets({
       className="relative"
     >
       <div className="relative">
-        <Search className="z-20 absolute left-3 top-1/2 transform -translate-y-1/2 h-4 w-4 text-muted-foreground" />
+        <Search className="text-muted-foreground absolute left-3 top-1/2 z-20 size-4 -translate-y-1/2" />
         <Input
           type="text"
           placeholder="Search alphabets, pronunciation, or examples..."
           value={value}
           onChange={(e) => onChange(e.target.value)}
-          className="pl-10 glass-morphism z-10"
+          className="glass-morphism z-10 pl-10"
         />
       </div>
     </motion.div>

@@ -1,0 +1,1751 @@
+[
+  {
+    "code": "pt",
+    "name": "Portugal",
+    "population": 10196709,
+    "primaryLanguage": {
+      "code": "pt",
+      "name": "Portuguese",
+      "speakers": 10000000
+    },
+    "otherLanguages": []
+  },
+  {
+    "code": "gr",
+    "name": "Greece",
+    "population": 10718565,
+    "primaryLanguage": {
+      "code": "el",
+      "name": "Greek",
+      "speakers": 10700000
+    },
+    "otherLanguages": []
+  },
+  {
+    "code": "nl",
+    "name": "Netherlands",
+    "population": 17441139,
+    "primaryLanguage": {
+      "code": "nl",
+      "name": "Dutch",
+      "speakers": 17000000
+    },
+    "otherLanguages": [
+      {
+        "code": "fr",
+        "name": "Frisian",
+        "speakers": 450000
+      }
+    ]
+  },
+  {
+    "code": "be",
+    "name": "Belgium",
+    "population": 11589623,
+    "primaryLanguage": {
+      "code": "nl",
+      "name": "Dutch",
+      "speakers": 6500000
+    },
+    "otherLanguages": [
+      {
+        "code": "fr",
+        "name": "French",
+        "speakers": 4000000
+      },
+      {
+        "code": "de",
+        "name": "German",
+        "speakers": 75000
+      }
+    ]
+  },
+  {
+    "code": "ch",
+    "name": "Switzerland",
+    "population": 8654622,
+    "primaryLanguage": {
+      "code": "de",
+      "name": "German",
+      "speakers": 5000000
+    },
+    "otherLanguages": [
+      {
+        "code": "fr",
+        "name": "French",
+        "speakers": 1800000
+      },
+      {
+        "code": "it",
+        "name": "Italian",
+        "speakers": 600000
+      },
+      {
+        "code": "rm",
+        "name": "Romansh",
+        "speakers": 60000
+      }
+    ]
+  },
+  {
+    "code": "at",
+    "name": "Austria",
+    "population": 8917205,
+    "primaryLanguage": {
+      "code": "de",
+      "name": "German",
+      "speakers": 8800000
+    },
+    "otherLanguages": [
+      {
+        "code": "hr",
+        "name": "Croatian",
+        "speakers": 300000
+      }
+    ]
+  },
+  {
+    "code": "cz",
+    "name": "Czech Republic",
+    "population": 10708982,
+    "primaryLanguage": {
+      "code": "cs",
+      "name": "Czech",
+      "speakers": 10500000
+    },
+    "otherLanguages": [
+      {
+        "code": "sk",
+        "name": "Slovak",
+        "speakers": 200000
+      }
+    ]
+  },
+  {
+    "code": "sk",
+    "name": "Slovakia",
+    "population": 5459781,
+    "primaryLanguage": {
+      "code": "sk",
+      "name": "Slovak",
+      "speakers": 5400000
+    },
+    "otherLanguages": [
+      {
+        "code": "hu",
+        "name": "Hungarian",
+        "speakers": 400000
+      }
+    ]
+  },
+  {
+    "code": "hu",
+    "name": "Hungary",
+    "population": 9772756,
+    "primaryLanguage": {
+      "code": "hu",
+      "name": "Hungarian",
+      "speakers": 9500000
+    },
+    "otherLanguages": [
+      {
+        "code": "ro",
+        "name": "Romanian",
+        "speakers": 200000
+      }
+    ]
+  },
+  {
+    "code": "ro",
+    "name": "Romania",
+    "population": 19237682,
+    "primaryLanguage": {
+      "code": "ro",
+      "name": "Romanian",
+      "speakers": 19000000
+    },
+    "otherLanguages": [
+      {
+        "code": "hu",
+        "name": "Hungarian",
+        "speakers": 1500000
+      }
+    ]
+  },
+  {
+    "code": "bg",
+    "name": "Bulgaria",
+    "population": 6948445,
+    "primaryLanguage": {
+      "code": "bg",
+      "name": "Bulgarian",
+      "speakers": 6900000
+    },
+    "otherLanguages": [
+      {
+        "code": "tr",
+        "name": "Turkish",
+        "speakers": 300000
+      }
+    ]
+  },
+  {
+    "code": "dk",
+    "name": "Denmark",
+    "population": 5831404,
+    "primaryLanguage": {
+      "code": "da",
+      "name": "Danish",
+      "speakers": 5700000
+    },
+    "otherLanguages": [
+      {
+        "code": "de",
+        "name": "German",
+        "speakers": 50000
+      }
+    ]
+  },
+  {
+    "code": "no",
+    "name": "Norway",
+    "population": 5378857,
+    "primaryLanguage": {
+      "code": "nb",
+      "name": "Norwegian Bokmål",
+      "speakers": 5200000
+    },
+    "otherLanguages": [
+      {
+        "code": "nn",
+        "name": "Norwegian Nynorsk",
+        "speakers": 600000
+      }
+    ]
+  },
+  {
+    "code": "fi",
+    "name": "Finland",
+    "population": 5530719,
+    "primaryLanguage": {
+      "code": "fi",
+      "name": "Finnish",
+      "speakers": 5000000
+    },
+    "otherLanguages": [
+      {
+        "code": "sv",
+        "name": "Swedish",
+        "speakers": 300000
+      }
+    ]
+  },
+  {
+    "code": "ie",
+    "name": "Ireland",
+    "population": 5033093,
+    "primaryLanguage": {
+      "code": "en",
+      "name": "English",
+      "speakers": 4800000
+    },
+    "otherLanguages": [
+      {
+        "code": "ga",
+        "name": "Irish",
+        "speakers": 250000
+      }
+    ]
+  },
+  {
+    "code": "hr",
+    "name": "Croatia",
+    "population": 4047200,
+    "primaryLanguage": {
+      "code": "hr",
+      "name": "Croatian",
+      "speakers": 4000000
+    },
+    "otherLanguages": []
+  },
+  {
+    "code": "si",
+    "name": "Slovenia",
+    "population": 2108977,
+    "primaryLanguage": {
+      "code": "sl",
+      "name": "Slovenian",
+      "speakers": 2100000
+    },
+    "otherLanguages": [
+      {
+        "code": "hu",
+        "name": "Hungarian",
+        "speakers": 30000
+      }
+    ]
+  },
+  {
+    "code": "ee",
+    "name": "Estonia",
+    "population": 1331057,
+    "primaryLanguage": {
+      "code": "et",
+      "name": "Estonian",
+      "speakers": 1300000
+    },
+    "otherLanguages": [
+      {
+        "code": "ru",
+        "name": "Russian",
+        "speakers": 300000
+      }
+    ]
+  },
+  {
+    "code": "lv",
+    "name": "Latvia",
+    "population": 1886202,
+    "primaryLanguage": {
+      "code": "lv",
+      "name": "Latvian",
+      "speakers": 1700000
+    },
+    "otherLanguages": [
+      {
+        "code": "ru",
+        "name": "Russian",
+        "speakers": 500000
+      }
+    ]
+  },
+  {
+    "code": "lt",
+    "name": "Lithuania",
+    "population": 2795680,
+    "primaryLanguage": {
+      "code": "lt",
+      "name": "Lithuanian",
+      "speakers": 2700000
+    },
+    "otherLanguages": [
+      {
+        "code": "ru",
+        "name": "Russian",
+        "speakers": 200000
+      }
+    ]
+  },
+  {
+    "code": "mc",
+    "name": "Monaco",
+    "population": 39242,
+    "primaryLanguage": {
+      "code": "fr",
+      "name": "French",
+      "speakers": 38000
+    },
+    "otherLanguages": [
+      {
+        "code": "it",
+        "name": "Italian",
+        "speakers": 1000
+      }
+    ]
+  },
+  {
+    "code": "li",
+    "name": "Liechtenstein",
+    "population": 38128,
+    "primaryLanguage": {
+      "code": "de",
+      "name": "German",
+      "speakers": 37000
+    },
+    "otherLanguages": []
+  },
+  {
+    "code": "sm",
+    "name": "San Marino",
+    "population": 33931,
+    "primaryLanguage": {
+      "code": "it",
+      "name": "Italian",
+      "speakers": 33000
+    },
+    "otherLanguages": []
+  },
+  {
+    "code": "va",
+    "name": "Vatican City",
+    "population": 825,
+    "primaryLanguage": {
+      "code": "it",
+      "name": "Italian",
+      "speakers": 800
+    },
+    "otherLanguages": [
+      {
+        "code": "la",
+        "name": "Latin",
+        "speakers": 25
+      }
+    ]
+  },
+  {
+    "code": "ad",
+    "name": "Andorra",
+    "population": 77265,
+    "primaryLanguage": {
+      "code": "ca",
+      "name": "Catalan",
+      "speakers": 75000
+    },
+    "otherLanguages": [
+      {
+        "code": "es",
+        "name": "Spanish",
+        "speakers": 25000
+      }
+    ]
+  },
+  {
+    "code": "lu",
+    "name": "Luxembourg",
+    "population": 639589,
+    "primaryLanguage": {
+      "code": "lb",
+      "name": "Luxembourgish",
+      "speakers": 400000
+    },
+    "otherLanguages": [
+      {
+        "code": "fr",
+        "name": "French",
+        "speakers": 300000
+      },
+      {
+        "code": "de",
+        "name": "German",
+        "speakers": 250000
+      }
+    ]
+  },
+  {
+    "code": "mt",
+    "name": "Malta",
+    "population": 441543,
+    "primaryLanguage": {
+      "code": "mt",
+      "name": "Maltese",
+      "speakers": 400000
+    },
+    "otherLanguages": [
+      {
+        "code": "en",
+        "name": "English",
+        "speakers": 350000
+      }
+    ]
+  },
+  {
+    "code": "cy",
+    "name": "Cyprus",
+    "population": 1207359,
+    "primaryLanguage": {
+      "code": "el",
+      "name": "Greek",
+      "speakers": 800000
+    },
+    "otherLanguages": [
+      {
+        "code": "tr",
+        "name": "Turkish",
+        "speakers": 300000
+      }
+    ]
+  },
+  {
+    "code": "is",
+    "name": "Iceland",
+    "population": 366425,
+    "primaryLanguage": {
+      "code": "is",
+      "name": "Icelandic",
+      "speakers": 360000
+    },
+    "otherLanguages": []
+  },
+  {
+    "code": "us",
+    "name": "United States",
+    "population": 331002651,
+    "primaryLanguage": {
+      "code": "en",
+      "name": "English",
+      "speakers": 268000000
+    },
+    "otherLanguages": [
+      {
+        "code": "es",
+        "name": "Spanish",
+        "speakers": 41000000
+      }
+    ]
+  },
+  {
+    "code": "ca",
+    "name": "Canada",
+    "population": 38005238,
+    "primaryLanguage": {
+      "code": "en",
+      "name": "English",
+      "speakers": 25000000
+    },
+    "otherLanguages": [
+      {
+        "code": "fr",
+        "name": "French",
+        "speakers": 10000000
+      }
+    ]
+  },
+  {
+    "code": "mx",
+    "name": "Mexico",
+    "population": 128932753,
+    "primaryLanguage": {
+      "code": "es",
+      "name": "Spanish",
+      "speakers": 120000000
+    },
+    "otherLanguages": [
+      {
+        "code": "nah",
+        "name": "Nahuatl",
+        "speakers": 1500000
+      }
+    ]
+  },
+  {
+    "code": "gt",
+    "name": "Guatemala",
+    "population": 17915568,
+    "primaryLanguage": {
+      "code": "es",
+      "name": "Spanish",
+      "speakers": 14500000
+    },
+    "otherLanguages": [
+      {
+        "code": "quc",
+        "name": "K'iche'",
+        "speakers": 1000000
+      }
+    ]
+  },
+  {
+    "code": "hn",
+    "name": "Honduras",
+    "population": 9904607,
+    "primaryLanguage": {
+      "code": "es",
+      "name": "Spanish",
+      "speakers": 9500000
+    },
+    "otherLanguages": [
+      {
+        "code": "lenca",
+        "name": "Lenca",
+        "speakers": 100000
+      }
+    ]
+  },
+  {
+    "code": "sv",
+    "name": "El Salvador",
+    "population": 6486205,
+    "primaryLanguage": {
+      "code": "es",
+      "name": "Spanish",
+      "speakers": 6400000
+    },
+    "otherLanguages": []
+  },
+  {
+    "code": "ni",
+    "name": "Nicaragua",
+    "population": 6624554,
+    "primaryLanguage": {
+      "code": "es",
+      "name": "Spanish",
+      "speakers": 6500000
+    },
+    "otherLanguages": [
+      {
+        "code": "miq",
+        "name": "Miskito",
+        "speakers": 150000
+      }
+    ]
+  },
+  {
+    "code": "cr",
+    "name": "Costa Rica",
+    "population": 5094118,
+    "primaryLanguage": {
+      "code": "es",
+      "name": "Spanish",
+      "speakers": 5000000
+    },
+    "otherLanguages": []
+  },
+  {
+    "code": "pa",
+    "name": "Panama",
+    "population": 4314767,
+    "primaryLanguage": {
+      "code": "es",
+      "name": "Spanish",
+      "speakers": 4200000
+    },
+    "otherLanguages": [
+      {
+        "code": "ngb",
+        "name": "Ngäbere",
+        "speakers": 100000
+      }
+    ]
+  },
+  {
+    "code": "bz",
+    "name": "Belize",
+    "population": 397628,
+    "primaryLanguage": {
+      "code": "en",
+      "name": "English",
+      "speakers": 250000
+    },
+    "otherLanguages": [
+      {
+        "code": "es",
+        "name": "Spanish",
+        "speakers": 100000
+      },
+      {
+        "code": "crb",
+        "name": "Belizean Creole",
+        "speakers": 150000
+      }
+    ]
+  },
+  {
+    "code": "cn",
+    "name": "China",
+    "population": 1412360000,
+    "primaryLanguage": {
+      "code": "zh",
+      "name": "Mandarin Chinese",
+      "speakers": 1000000000
+    },
+    "otherLanguages": [
+      {
+        "code": "zh-yue",
+        "name": "Cantonese",
+        "speakers": 80000000
+      },
+      {
+        "code": "ug",
+        "name": "Uyghur",
+        "speakers": 10000000
+      }
+    ]
+  },
+  {
+    "code": "in",
+    "name": "India",
+    "population": 1380004385,
+    "primaryLanguage": {
+      "code": "hi",
+      "name": "Hindi",
+      "speakers": 600000000
+    },
+    "otherLanguages": [
+      {
+        "code": "en",
+        "name": "English",
+        "speakers": 250000000
+      },
+      {
+        "code": "te",
+        "name": "Telugu",
+        "speakers": 93000000
+      }
+    ]
+  },
+  {
+    "code": "jp",
+    "name": "Japan",
+    "population": 125360000,
+    "primaryLanguage": {
+      "code": "ja",
+      "name": "Japanese",
+      "speakers": 125000000
+    },
+    "otherLanguages": [
+      {
+        "code": "ryu",
+        "name": "Ryukyuan",
+        "speakers": 300000
+      }
+    ]
+  },
+  {
+    "code": "kr",
+    "name": "South Korea",
+    "population": 51780579,
+    "primaryLanguage": {
+      "code": "ko",
+      "name": "Korean",
+      "speakers": 51000000
+    },
+    "otherLanguages": []
+  },
+  {
+    "code": "kp",
+    "name": "North Korea",
+    "population": 25778815,
+    "primaryLanguage": {
+      "code": "ko",
+      "name": "Korean",
+      "speakers": 25000000
+    },
+    "otherLanguages": []
+  },
+  {
+    "code": "sa",
+    "name": "Saudi Arabia",
+    "population": 34813871,
+    "primaryLanguage": {
+      "code": "ar",
+      "name": "Arabic",
+      "speakers": 34000000
+    },
+    "otherLanguages": [
+      {
+        "code": "en",
+        "name": "English",
+        "speakers": 2000000
+      }
+    ]
+  },
+  {
+    "code": "ir",
+    "name": "Iran",
+    "population": 83992949,
+    "primaryLanguage": {
+      "code": "fa",
+      "name": "Persian",
+      "speakers": 83000000
+    },
+    "otherLanguages": [
+      {
+        "code": "az",
+        "name": "Azerbaijani",
+        "speakers": 15000000
+      },
+      {
+        "code": "ku",
+        "name": "Kurdish",
+        "speakers": 8000000
+      }
+    ]
+  },
+  {
+    "code": "th",
+    "name": "Thailand",
+    "population": 69799978,
+    "primaryLanguage": {
+      "code": "th",
+      "name": "Thai",
+      "speakers": 69000000
+    },
+    "otherLanguages": [
+      {
+        "code": "km",
+        "name": "Khmer",
+        "speakers": 1500000
+      }
+    ]
+  },
+  {
+    "code": "tr",
+    "name": "Turkey",
+    "population": 84339067,
+    "primaryLanguage": {
+      "code": "tr",
+      "name": "Turkish",
+      "speakers": 83000000
+    },
+    "otherLanguages": [
+      {
+        "code": "ku",
+        "name": "Kurdish",
+        "speakers": 15000000
+      },
+      {
+        "code": "ar",
+        "name": "Arabic",
+        "speakers": 2000000
+      }
+    ]
+  },
+  {
+    "code": "pk",
+    "name": "Pakistan",
+    "population": 220892340,
+    "primaryLanguage": {
+      "code": "ur",
+      "name": "Urdu",
+      "speakers": 170000000
+    },
+    "otherLanguages": [
+      {
+        "code": "en",
+        "name": "English",
+        "speakers": 20000000
+      },
+      {
+        "code": "pa",
+        "name": "Punjabi",
+        "speakers": 44000000
+      }
+    ]
+  },
+  {
+    "code": "bd",
+    "name": "Bangladesh",
+    "population": 164689383,
+    "primaryLanguage": {
+      "code": "bn",
+      "name": "Bengali",
+      "speakers": 160000000
+    },
+    "otherLanguages": [
+      {
+        "code": "en",
+        "name": "English",
+        "speakers": 5000000
+      }
+    ]
+  },
+  {
+    "code": "ae",
+    "name": "United Arab Emirates",
+    "population": 9890400,
+    "primaryLanguage": {
+      "code": "ar",
+      "name": "Arabic",
+      "speakers": 9000000
+    },
+    "otherLanguages": [
+      {
+        "code": "en",
+        "name": "English",
+        "speakers": 8000000
+      }
+    ]
+  },
+  {
+    "code": "id",
+    "name": "Indonesia",
+    "population": 273523615,
+    "primaryLanguage": {
+      "code": "id",
+      "name": "Indonesian",
+      "speakers": 200000000
+    },
+    "otherLanguages": [
+      {
+        "code": "jv",
+        "name": "Javanese",
+        "speakers": 84000000
+      }
+    ]
+  },
+  {
+    "code": "ph",
+    "name": "Philippines",
+    "population": 109581078,
+    "primaryLanguage": {
+      "code": "tl",
+      "name": "Filipino",
+      "speakers": 90000000
+    },
+    "otherLanguages": [
+      {
+        "code": "en",
+        "name": "English",
+        "speakers": 50000000
+      }
+    ]
+  },
+  {
+    "code": "vn",
+    "name": "Vietnam",
+    "population": 97338579,
+    "primaryLanguage": {
+      "code": "vi",
+      "name": "Vietnamese",
+      "speakers": 95000000
+    },
+    "otherLanguages": []
+  },
+  {
+    "code": "my",
+    "name": "Malaysia",
+    "population": 32365999,
+    "primaryLanguage": {
+      "code": "ms",
+      "name": "Malay",
+      "speakers": 30000000
+    },
+    "otherLanguages": [
+      {
+        "code": "zh",
+        "name": "Chinese",
+        "speakers": 6000000
+      },
+      {
+        "code": "ta",
+        "name": "Tamil",
+        "speakers": 2000000
+      }
+    ]
+  },
+  {
+    "code": "mm",
+    "name": "Myanmar",
+    "population": 54409800,
+    "primaryLanguage": {
+      "code": "my",
+      "name": "Burmese",
+      "speakers": 50000000
+    },
+    "otherLanguages": [
+      {
+        "code": "ka",
+        "name": "Karen",
+        "speakers": 2000000
+      }
+    ]
+  },
+  {
+    "code": "kz",
+    "name": "Kazakhstan",
+    "population": 18775000,
+    "primaryLanguage": {
+      "code": "kk",
+      "name": "Kazakh",
+      "speakers": 12000000
+    },
+    "otherLanguages": [
+      {
+        "code": "ru",
+        "name": "Russian",
+        "speakers": 6000000
+      }
+    ]
+  },
+  {
+    "code": "uz",
+    "name": "Uzbekistan",
+    "population": 34232050,
+    "primaryLanguage": {
+      "code": "uz",
+      "name": "Uzbek",
+      "speakers": 30000000
+    },
+    "otherLanguages": [
+      {
+        "code": "ru",
+        "name": "Russian",
+        "speakers": 4000000
+      }
+    ]
+  },
+  {
+    "code": "sy",
+    "name": "Syria",
+    "population": 17500657,
+    "primaryLanguage": {
+      "code": "ar",
+      "name": "Arabic",
+      "speakers": 17000000
+    },
+    "otherLanguages": [
+      {
+        "code": "ku",
+        "name": "Kurdish",
+        "speakers": 2000000
+      }
+    ]
+  },
+  {
+    "code": "iq",
+    "name": "Iraq",
+    "population": 40222493,
+    "primaryLanguage": {
+      "code": "ar",
+      "name": "Arabic",
+      "speakers": 35000000
+    },
+    "otherLanguages": [
+      {
+        "code": "ku",
+        "name": "Kurdish",
+        "speakers": 5000000
+      }
+    ]
+  },
+  {
+    "code": "il",
+    "name": "Israel",
+    "population": 9364000,
+    "primaryLanguage": {
+      "code": "he",
+      "name": "Hebrew",
+      "speakers": 7000000
+    },
+    "otherLanguages": [
+      {
+        "code": "ar",
+        "name": "Arabic",
+        "speakers": 2000000
+      }
+    ]
+  },
+  {
+    "code": "lb",
+    "name": "Lebanon",
+    "population": 6825442,
+    "primaryLanguage": {
+      "code": "ar",
+      "name": "Arabic",
+      "speakers": 6500000
+    },
+    "otherLanguages": [
+      {
+        "code": "fr",
+        "name": "French",
+        "speakers": 300000
+      }
+    ]
+  },
+  {
+    "code": "sg",
+    "name": "Singapore",
+    "population": 5686000,
+    "primaryLanguage": {
+      "code": "en",
+      "name": "English",
+      "speakers": 3500000
+    },
+    "otherLanguages": [
+      {
+        "code": "zh",
+        "name": "Chinese",
+        "speakers": 1500000
+      },
+      {
+        "code": "ms",
+        "name": "Malay",
+        "speakers": 500000
+      },
+      {
+        "code": "ta",
+        "name": "Tamil",
+        "speakers": 200000
+      }
+    ]
+  },
+  {
+    "code": "kh",
+    "name": "Cambodia",
+    "population": 16718965,
+    "primaryLanguage": {
+      "code": "km",
+      "name": "Khmer",
+      "speakers": 16000000
+    },
+    "otherLanguages": [
+      {
+        "code": "fr",
+        "name": "French",
+        "speakers": 50000
+      }
+    ]
+  },
+  {
+    "code": "la",
+    "name": "Laos",
+    "population": 7275556,
+    "primaryLanguage": {
+      "code": "lo",
+      "name": "Lao",
+      "speakers": 7000000
+    },
+    "otherLanguages": []
+  },
+  {
+    "code": "mn",
+    "name": "Mongolia",
+    "population": 3278290,
+    "primaryLanguage": {
+      "code": "mn",
+      "name": "Mongolian",
+      "speakers": 3000000
+    },
+    "otherLanguages": [
+      {
+        "code": "ru",
+        "name": "Russian",
+        "speakers": 250000
+      }
+    ]
+  },
+  {
+    "code": "bn",
+    "name": "Brunei",
+    "population": 437479,
+    "primaryLanguage": {
+      "code": "ms",
+      "name": "Malay",
+      "speakers": 400000
+    },
+    "otherLanguages": [
+      {
+        "code": "en",
+        "name": "English",
+        "speakers": 200000
+      }
+    ]
+  },
+  {
+    "code": "np",
+    "name": "Nepal",
+    "population": 29164578,
+    "primaryLanguage": {
+      "code": "ne",
+      "name": "Nepali",
+      "speakers": 28000000
+    },
+    "otherLanguages": [
+      {
+        "code": "ta",
+        "name": "Tamang",
+        "speakers": 1500000
+      }
+    ]
+  },
+  {
+    "code": "lk",
+    "name": "Sri Lanka",
+    "population": 21919000,
+    "primaryLanguage": {
+      "code": "si",
+      "name": "Sinhala",
+      "speakers": 16000000
+    },
+    "otherLanguages": [
+      {
+        "code": "ta",
+        "name": "Tamil",
+        "speakers": 4000000
+      }
+    ]
+  },
+  {
+    "code": "bt",
+    "name": "Bhutan",
+    "population": 771612,
+    "primaryLanguage": {
+      "code": "dz",
+      "name": "Dzongkha",
+      "speakers": 700000
+    },
+    "otherLanguages": []
+  },
+  {
+    "code": "ng",
+    "name": "Nigeria",
+    "population": 206139589,
+    "primaryLanguage": {
+      "code": "en",
+      "name": "English",
+      "speakers": 180000000
+    },
+    "otherLanguages": [
+      {
+        "code": "ha",
+        "name": "Hausa",
+        "speakers": 40000000
+      },
+      {
+        "code": "yo",
+        "name": "Yoruba",
+        "speakers": 30000000
+      },
+      {
+        "code": "ig",
+        "name": "Igbo",
+        "speakers": 24000000
+      }
+    ]
+  },
+  {
+    "code": "et",
+    "name": "Ethiopia",
+    "population": 117876227,
+    "primaryLanguage": {
+      "code": "am",
+      "name": "Amharic",
+      "speakers": 30000000
+    },
+    "otherLanguages": [
+      {
+        "code": "om",
+        "name": "Oromo",
+        "speakers": 35000000
+      },
+      {
+        "code": "so",
+        "name": "Somali",
+        "speakers": 5000000
+      }
+    ]
+  },
+  {
+    "code": "eg",
+    "name": "Egypt",
+    "population": 104258327,
+    "primaryLanguage": {
+      "code": "ar",
+      "name": "Arabic",
+      "speakers": 100000000
+    },
+    "otherLanguages": [
+      {
+        "code": "en",
+        "name": "English",
+        "speakers": 5000000
+      }
+    ]
+  },
+  {
+    "code": "cd",
+    "name": "Democratic Republic of the Congo",
+    "population": 89561403,
+    "primaryLanguage": {
+      "code": "fr",
+      "name": "French",
+      "speakers": 42000000
+    },
+    "otherLanguages": [
+      {
+        "code": "ln",
+        "name": "Lingala",
+        "speakers": 20000000
+      },
+      {
+        "code": "sw",
+        "name": "Swahili",
+        "speakers": 10000000
+      }
+    ]
+  },
+  {
+    "code": "za",
+    "name": "South Africa",
+    "population": 59308690,
+    "primaryLanguage": {
+      "code": "en",
+      "name": "English",
+      "speakers": 30000000
+    },
+    "otherLanguages": [
+      {
+        "code": "zu",
+        "name": "Zulu",
+        "speakers": 12000000
+      },
+      {
+        "code": "xh",
+        "name": "Xhosa",
+        "speakers": 8000000
+      },
+      {
+        "code": "af",
+        "name": "Afrikaans",
+        "speakers": 7000000
+      }
+    ]
+  },
+  {
+    "code": "tz",
+    "name": "Tanzania",
+    "population": 59734218,
+    "primaryLanguage": {
+      "code": "sw",
+      "name": "Swahili",
+      "speakers": 50000000
+    },
+    "otherLanguages": [
+      {
+        "code": "en",
+        "name": "English",
+        "speakers": 5000000
+      }
+    ]
+  },
+  {
+    "code": "ke",
+    "name": "Kenya",
+    "population": 53771296,
+    "primaryLanguage": {
+      "code": "sw",
+      "name": "Swahili",
+      "speakers": 40000000
+    },
+    "otherLanguages": [
+      {
+        "code": "en",
+        "name": "English",
+        "speakers": 15000000
+      }
+    ]
+  },
+  {
+    "code": "sd",
+    "name": "Sudan",
+    "population": 43849260,
+    "primaryLanguage": {
+      "code": "ar",
+      "name": "Arabic",
+      "speakers": 40000000
+    },
+    "otherLanguages": [
+      {
+        "code": "en",
+        "name": "English",
+        "speakers": 2000000
+      }
+    ]
+  },
+  {
+    "code": "dz",
+    "name": "Algeria",
+    "population": 43851043,
+    "primaryLanguage": {
+      "code": "ar",
+      "name": "Arabic",
+      "speakers": 40000000
+    },
+    "otherLanguages": [
+      {
+        "code": "fr",
+        "name": "French",
+        "speakers": 10000000
+      }
+    ]
+  },
+  {
+    "code": "ug",
+    "name": "Uganda",
+    "population": 45741007,
+    "primaryLanguage": {
+      "code": "en",
+      "name": "English",
+      "speakers": 40000000
+    },
+    "otherLanguages": [
+      {
+        "code": "sw",
+        "name": "Swahili",
+        "speakers": 5000000
+      }
+    ]
+  },
+  {
+    "code": "ma",
+    "name": "Morocco",
+    "population": 37344795,
+    "primaryLanguage": {
+      "code": "ar",
+      "name": "Arabic",
+      "speakers": 32000000
+    },
+    "otherLanguages": [
+      {
+        "code": "fr",
+        "name": "French",
+        "speakers": 5000000
+      },
+      {
+        "code": "be",
+        "name": "Berber",
+        "speakers": 3000000
+      }
+    ]
+  },
+  {
+    "code": "mz",
+    "name": "Mozambique",
+    "population": 31255435,
+    "primaryLanguage": {
+      "code": "pt",
+      "name": "Portuguese",
+      "speakers": 20000000
+    },
+    "otherLanguages": [
+      {
+        "code": "sw",
+        "name": "Swahili",
+        "speakers": 3000000
+      }
+    ]
+  },
+  {
+    "code": "gh",
+    "name": "Ghana",
+    "population": 31072940,
+    "primaryLanguage": {
+      "code": "en",
+      "name": "English",
+      "speakers": 28000000
+    },
+    "otherLanguages": [
+      {
+        "code": "ak",
+        "name": "Akan",
+        "speakers": 15000000
+      }
+    ]
+  },
+  {
+    "code": "ao",
+    "name": "Angola",
+    "population": 32866272,
+    "primaryLanguage": {
+      "code": "pt",
+      "name": "Portuguese",
+      "speakers": 30000000
+    },
+    "otherLanguages": [
+      {
+        "code": "km",
+        "name": "Kikongo",
+        "speakers": 2000000
+      }
+    ]
+  },
+  {
+    "code": "ci",
+    "name": "Ivory Coast",
+    "population": 26378274,
+    "primaryLanguage": {
+      "code": "fr",
+      "name": "French",
+      "speakers": 25000000
+    },
+    "otherLanguages": [
+      {
+        "code": "bm",
+        "name": "Bambara",
+        "speakers": 2000000
+      }
+    ]
+  },
+  {
+    "code": "cm",
+    "name": "Cameroon",
+    "population": 26545864,
+    "primaryLanguage": {
+      "code": "fr",
+      "name": "French",
+      "speakers": 20000000
+    },
+    "otherLanguages": [
+      {
+        "code": "en",
+        "name": "English",
+        "speakers": 5000000
+      },
+      {
+        "code": "ar",
+        "name": "Arabic",
+        "speakers": 1000000
+      }
+    ]
+  },
+  {
+    "code": "ne",
+    "name": "Niger",
+    "population": 24206636,
+    "primaryLanguage": {
+      "code": "fr",
+      "name": "French",
+      "speakers": 20000000
+    },
+    "otherLanguages": [
+      {
+        "code": "ha",
+        "name": "Hausa",
+        "speakers": 5000000
+      }
+    ]
+  },
+  {
+    "code": "ml",
+    "name": "Mali",
+    "population": 20250833,
+    "primaryLanguage": {
+      "code": "fr",
+      "name": "French",
+      "speakers": 15000000
+    },
+    "otherLanguages": [
+      {
+        "code": "bm",
+        "name": "Bambara",
+        "speakers": 10000000
+      }
+    ]
+  },
+  {
+    "code": "bf",
+    "name": "Burkina Faso",
+    "population": 20903273,
+    "primaryLanguage": {
+      "code": "fr",
+      "name": "French",
+      "speakers": 18000000
+    },
+    "otherLanguages": [
+      {
+        "code": "mo",
+        "name": "Mossi",
+        "speakers": 10000000
+      }
+    ]
+  },
+  {
+    "code": "sn",
+    "name": "Senegal",
+    "population": 16743927,
+    "primaryLanguage": {
+      "code": "fr",
+      "name": "French",
+      "speakers": 15000000
+    },
+    "otherLanguages": [
+      {
+        "code": "wo",
+        "name": "Wolof",
+        "speakers": 10000000
+      }
+    ]
+  },
+  {
+    "code": "td",
+    "name": "Chad",
+    "population": 16425859,
+    "primaryLanguage": {
+      "code": "fr",
+      "name": "French",
+      "speakers": 15000000
+    },
+    "otherLanguages": [
+      {
+        "code": "ar",
+        "name": "Arabic",
+        "speakers": 5000000
+      }
+    ]
+  },
+  {
+    "code": "so",
+    "name": "Somalia",
+    "population": 15893222,
+    "primaryLanguage": {
+      "code": "so",
+      "name": "Somali",
+      "speakers": 15000000
+    },
+    "otherLanguages": [
+      {
+        "code": "ar",
+        "name": "Arabic",
+        "speakers": 2000000
+      }
+    ]
+  },
+  {
+    "code": "ly",
+    "name": "Libya",
+    "population": 6871000,
+    "primaryLanguage": {
+      "code": "ar",
+      "name": "Arabic",
+      "speakers": 6700000
+    },
+    "otherLanguages": [
+      {
+        "code": "en",
+        "name": "English",
+        "speakers": 200000
+      }
+    ]
+  },
+  {
+    "code": "tn",
+    "name": "Tunisia",
+    "population": 11818619,
+    "primaryLanguage": {
+      "code": "ar",
+      "name": "Arabic",
+      "speakers": 11500000
+    },
+    "otherLanguages": [
+      {
+        "code": "fr",
+        "name": "French",
+        "speakers": 2000000
+      }
+    ]
+  },
+  {
+    "code": "gn",
+    "name": "Guinea",
+    "population": 13132795,
+    "primaryLanguage": {
+      "code": "fr",
+      "name": "French",
+      "speakers": 12000000
+    },
+    "otherLanguages": [
+      {
+        "code": "ff",
+        "name": "Fula",
+        "speakers": 4000000
+      }
+    ]
+  },
+  {
+    "code": "mg",
+    "name": "Madagascar",
+    "population": 27534354,
+    "primaryLanguage": {
+      "code": "mg",
+      "name": "Malagasy",
+      "speakers": 25000000
+    },
+    "otherLanguages": [
+      {
+        "code": "fr",
+        "name": "French",
+        "speakers": 2500000
+      }
+    ]
+  },
+  {
+    "code": "zw",
+    "name": "Zimbabwe",
+    "population": 14645473,
+    "primaryLanguage": {
+      "code": "en",
+      "name": "English",
+      "speakers": 12000000
+    },
+    "otherLanguages": [
+      {
+        "code": "sn",
+        "name": "Shona",
+        "speakers": 10000000
+      }
+    ]
+  },
+  {
+    "code": "rw",
+    "name": "Rwanda",
+    "population": 13276513,
+    "primaryLanguage": {
+      "code": "rw",
+      "name": "Kinyarwanda",
+      "speakers": 12000000
+    },
+    "otherLanguages": [
+      {
+        "code": "en",
+        "name": "English",
+        "speakers": 3000000
+      },
+      {
+        "code": "fr",
+        "name": "French",
+        "speakers": 3000000
+      }
+    ]
+  },
+  {
+    "code": "er",
+    "name": "Eritrea",
+    "population": 3546427,
+    "primaryLanguage": {
+      "code": "ti",
+      "name": "Tigrinya",
+      "speakers": 3000000
+    },
+    "otherLanguages": [
+      {
+        "code": "ar",
+        "name": "Arabic",
+        "speakers": 1000000
+      }
+    ]
+  },
+  {
+    "code": "na",
+    "name": "Namibia",
+    "population": 2540905,
+    "primaryLanguage": {
+      "code": "en",
+      "name": "English",
+      "speakers": 2000000
+    },
+    "otherLanguages": [
+      {
+        "code": "af",
+        "name": "Afrikaans",
+        "speakers": 1000000
+      }
+    ]
+  },
+  {
+    "code": "bw",
+    "name": "Botswana",
+    "population": 2351627,
+    "primaryLanguage": {
+      "code": "en",
+      "name": "English",
+      "speakers": 2000000
+    },
+    "otherLanguages": [
+      {
+        "code": "tn",
+        "name": "Tswana",
+        "speakers": 1500000
+      }
+    ]
+  }
+]

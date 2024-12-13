@@ -1,0 +1,262 @@
+[
+  {
+    "index": 1,
+    "character": "A",
+    "romanization": "a",
+    "pronunciation": "ah",
+    "examples": [
+      { "word": "Apfel", "meaning": "apple" },
+      { "word": "Arbeit", "meaning": "work" }
+    ]
+  },
+  {
+    "index": 2,
+    "character": "B",
+    "romanization": "b",
+    "pronunciation": "bay",
+    "examples": [
+      { "word": "Buch", "meaning": "book" },
+      { "word": "Baum", "meaning": "tree" }
+    ]
+  },
+  {
+    "index": 3,
+    "character": "C",
+    "romanization": "c",
+    "pronunciation": "tsay",
+    "examples": [
+      { "word": "Computer", "meaning": "computer" },
+      { "word": "Cafe", "meaning": "cafe" }
+    ]
+  },
+  {
+    "index": 4,
+    "character": "D",
+    "romanization": "d",
+    "pronunciation": "day",
+    "examples": [
+      { "word": "Doktor", "meaning": "doctor" },
+      { "word": "Dorf", "meaning": "village" }
+    ]
+  },
+  {
+    "index": 5,
+    "character": "E",
+    "romanization": "e",
+    "pronunciation": "ay",
+    "examples": [
+      { "word": "Eis", "meaning": "ice" },
+      { "word": "Ente", "meaning": "duck" }
+    ]
+  },
+  {
+    "index": 6,
+    "character": "F",
+    "romanization": "f",
+    "pronunciation": "eff",
+    "examples": [
+      { "word": "Fisch", "meaning": "fish" },
+      { "word": "Freund", "meaning": "friend" }
+    ]
+  },
+  {
+    "index": 7,
+    "character": "G",
+    "romanization": "g",
+    "pronunciation": "gay",
+    "examples": [
+      { "word": "Garten", "meaning": "garden" },
+      { "word": "Geld", "meaning": "money" }
+    ]
+  },
+  {
+    "index": 8,
+    "character": "H",
+    "romanization": "h",
+    "pronunciation": "hah",
+    "examples": [
+      { "word": "Haus", "meaning": "house" },
+      { "word": "Herz", "meaning": "heart" }
+    ]
+  },
+  {
+    "index": 9,
+    "character": "I",
+    "romanization": "i",
+    "pronunciation": "ee",
+    "examples": [
+      { "word": "Inspiration", "meaning": "inspiration" },
+      { "word": "Insel", "meaning": "island" }
+    ]
+  },
+  {
+    "index": 10,
+    "character": "J",
+    "romanization": "j",
+    "pronunciation": "yot",
+    "examples": [
+      { "word": "Jahr", "meaning": "year" },
+      { "word": "Jacke", "meaning": "jacket" }
+    ]
+  },
+  {
+    "index": 11,
+    "character": "K",
+    "romanization": "k",
+    "pronunciation": "kah",
+    "examples": [
+      { "word": "Katze", "meaning": "cat" },
+      { "word": "Kino", "meaning": "cinema" }
+    ]
+  },
+  {
+    "index": 12,
+    "character": "L",
+    "romanization": "l",
+    "pronunciation": "ell",
+    "examples": [
+      { "word": "Leben", "meaning": "life" },
+      { "word": "Licht", "meaning": "light" }
+    ]
+  },
+  {
+    "index": 13,
+    "character": "M",
+    "romanization": "m",
+    "pronunciation": "em",
+    "examples": [
+      { "word": "Mensch", "meaning": "human" },
+      { "word": "Meer", "meaning": "sea" }
+    ]
+  },
+  {
+    "index": 14,
+    "character": "N",
+    "romanization": "n",
+    "pronunciation": "en",
+    "examples": [
+      { "word": "Nacht", "meaning": "night" },
+      { "word": "Nase", "meaning": "nose" }
+    ]
+  },
+  {
+    "index": 15,
+    "character": "O",
+    "romanization": "o",
+    "pronunciation": "oh",
+    "examples": [
+      { "word": "Obst", "meaning": "fruit" },
+      { "word": "Ozean", "meaning": "ocean" }
+    ]
+  },
+  {
+    "index": 16,
+    "character": "P",
+    "romanization": "p",
+    "pronunciation": "pay",
+    "examples": [
+      { "word": "Pferd", "meaning": "horse" },
+      { "word": "Pumpe", "meaning": "pump" }
+    ]
+  },
+  {
+    "index": 17,
+    "character": "Q",
+    "romanization": "q",
+    "pronunciation": "koo",
+    "examples": [
+      { "word": "Qualität", "meaning": "quality" },
+      { "word": "Quote", "meaning": "quote" }
+    ]
+  },
+  {
+    "index": 18,
+    "character": "R",
+    "romanization": "r",
+    "pronunciation": "air",
+    "examples": [
+      { "word": "Regen", "meaning": "rain" },
+      { "word": "Rose", "meaning": "rose" }
+    ]
+  },
+  {
+    "index": 19,
+    "character": "S",
+    "romanization": "s",
+    "pronunciation": "ess",
+    "examples": [
+      { "word": "Sonne", "meaning": "sun" },
+      { "word": "Schule", "meaning": "school" }
+    ]
+  },
+  {
+    "index": 20,
+    "character": "T",
+    "romanization": "t",
+    "pronunciation": "tay",
+    "examples": [
+      { "word": "Tag", "meaning": "day" },
+      { "word": "Tisch", "meaning": "table" }
+    ]
+  },
+  {
+    "index": 21,
+    "character": "U",
+    "romanization": "u",
+    "pronunciation": "oo",
+    "examples": [
+      { "word": "Uhr", "meaning": "clock" },
+      { "word": "Universum", "meaning": "universe" }
+    ]
+  },
+  {
+    "index": 22,
+    "character": "V",
+    "romanization": "v",
+    "pronunciation": "fow",
+    "examples": [
+      { "word": "Vogel", "meaning": "bird" },
+      { "word": "Verein", "meaning": "association" }
+    ]
+  },
+  {
+    "index": 23,
+    "character": "W",
+    "romanization": "w",
+    "pronunciation": "vay",
+    "examples": [
+      { "word": "Wasser", "meaning": "water" },
+      { "word": "Welt", "meaning": "world" }
+    ]
+  },
+  {
+    "index": 24,
+    "character": "X",
+    "romanization": "x",
+    "pronunciation": "iks",
+    "examples": [
+      { "word": "Xylophon", "meaning": "xylophone" },
+      { "word": "Xenon", "meaning": "xenon" }
+    ]
+  },
+  {
+    "index": 25,
+    "character": "Y",
+    "romanization": "y",
+    "pronunciation": "ypsilon",
+    "examples": [
+      { "word": "Yoga", "meaning": "yoga" },
+      { "word": "Yacht", "meaning": "yacht" }
+    ]
+  },
+  {
+    "index": 26,
+    "character": "Z",
+    "romanization": "z",
+    "pronunciation": "tset",
+    "examples": [
+      { "word": "Zahl", "meaning": "number" },
+      { "word": "Zeit", "meaning": "time" }
+    ]
+  }
+]

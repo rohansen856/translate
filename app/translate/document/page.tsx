@@ -34,23 +34,23 @@ export default function FileTranslatePage() {
   }
 
   return (
-    <div className="min-h-screen bg-background relative">
+    <div className="bg-background relative min-h-screen">
       <AnimatedGradientBackground />
       <DashboardNav />
 
-      <main className="container mx-auto px-4 py-8 relative">
+      <main className="container relative mx-auto px-4 py-8">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}
-          className="max-w-4xl mx-auto"
+          className="mx-auto max-w-4xl"
         >
-          <h1 className="text-3xl font-bold mb-8 gradient-text">
+          <h1 className="gradient-text mb-8 text-3xl font-bold">
             Translate Text File
           </h1>
 
           <div className="space-y-8">
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <div className="grid grid-cols-1 gap-8 md:grid-cols-2">
               <LanguageSelector
                 value={sourceLang}
                 onChange={setSourceLang}
@@ -91,7 +91,7 @@ export default function FileTranslatePage() {
                       ) : (
                         <>
                           Translate File
-                          <ArrowRight className="ml-2 h-4 w-4" />
+                          <ArrowRight className="ml-2 size-4" />
                         </>
                       )}
                     </Button>

@@ -1,0 +1,402 @@
+[
+  {
+    "index": 1,
+    "character": "অ",
+    "romanization": "o",
+    "pronunciation": "o",
+    "examples": [
+      { "word": "অন্তর (ontor)", "meaning": "heart" },
+      { "word": "অমল (omol)", "meaning": "pure" }
+    ]
+  },
+  {
+    "index": 2,
+    "character": "আ",
+    "romanization": "a",
+    "pronunciation": "aa",
+    "examples": [
+      { "word": "আম (aam)", "meaning": "mango" },
+      { "word": "আকাশ (aakash)", "meaning": "sky" }
+    ]
+  },
+  {
+    "index": 3,
+    "character": "ই",
+    "romanization": "i",
+    "pronunciation": "ee",
+    "examples": [
+      { "word": "ইংরেজি (ingreji)", "meaning": "English" },
+      { "word": "ইচ্ছা (ichha)", "meaning": "wish" }
+    ]
+  },
+  {
+    "index": 4,
+    "character": "ঈ",
+    "romanization": "ee",
+    "pronunciation": "long ee",
+    "examples": [
+      { "word": "ঈশ্বর (eeshor)", "meaning": "God" },
+      { "word": "ঈর্ষা (eersha)", "meaning": "jealousy" }
+    ]
+  },
+  {
+    "index": 5,
+    "character": "উ",
+    "romanization": "u",
+    "pronunciation": "oo",
+    "examples": [
+      { "word": "উত্তর (uttor)", "meaning": "north" },
+      { "word": "উপহার (upohar)", "meaning": "gift" }
+    ]
+  },
+  {
+    "index": 6,
+    "character": "ঊ",
+    "romanization": "oo",
+    "pronunciation": "long oo",
+    "examples": [
+      { "word": "ঊর্ধ্বে (urdhwe)", "meaning": "above" },
+      { "word": "ঊনিশ (unish)", "meaning": "nineteen" }
+    ]
+  },
+  {
+    "index": 7,
+    "character": "এ",
+    "romanization": "e",
+    "pronunciation": "eh",
+    "examples": [
+      { "word": "এক (ek)", "meaning": "one" },
+      { "word": "এখন (ekhon)", "meaning": "now" }
+    ]
+  },
+  {
+    "index": 8,
+    "character": "ঐ",
+    "romanization": "oi",
+    "pronunciation": "ai",
+    "examples": [
+      { "word": "ঐ (oi)", "meaning": "that" },
+      { "word": "ঐশ্বর্য (oishorjo)", "meaning": "prosperity" }
+    ]
+  },
+  {
+    "index": 9,
+    "character": "ও",
+    "romanization": "o",
+    "pronunciation": "oh",
+    "examples": [
+      { "word": "ওই (oi)", "meaning": "that one" },
+      { "word": "ওরা (ora)", "meaning": "they" }
+    ]
+  },
+  {
+    "index": 10,
+    "character": "ঔ",
+    "romanization": "ou",
+    "pronunciation": "ou",
+    "examples": [
+      { "word": "ঔষধ (oushodh)", "meaning": "medicine" },
+      { "word": "ঔধিদ্য (oudhydo)", "meaning": "medicine" }
+    ]
+  },
+  {
+    "index": 11,
+    "character": "ক",
+    "romanization": "ka",
+    "pronunciation": "k",
+    "examples": [
+      { "word": "কলম (kolom)", "meaning": "pen" },
+      { "word": "কাগজ (kagoj)", "meaning": "paper" }
+    ]
+  },
+  {
+    "index": 12,
+    "character": "খ",
+    "romanization": "kha",
+    "pronunciation": "kh",
+    "examples": [
+      { "word": "খাবার (khabar)", "meaning": "food" },
+      { "word": "খরগোশ (khorgosh)", "meaning": "rabbit" }
+    ]
+  },
+  {
+    "index": 13,
+    "character": "গ",
+    "romanization": "ga",
+    "pronunciation": "g",
+    "examples": [
+      { "word": "গাছ (gach)", "meaning": "tree" },
+      { "word": "গান (gan)", "meaning": "song" }
+    ]
+  },
+  {
+    "index": 14,
+    "character": "ঘ",
+    "romanization": "gha",
+    "pronunciation": "gh",
+    "examples": [
+      { "word": "ঘর (ghor)", "meaning": "room" },
+      { "word": "ঘটনা (ghotona)", "meaning": "event" }
+    ]
+  },
+  {
+    "index": 15,
+    "character": "ঙ",
+    "romanization": "nga",
+    "pronunciation": "ng",
+    "examples": [
+      { "word": "বাংলা (bangla)", "meaning": "Bengali" },
+      { "word": "সংগীত (songeet)", "meaning": "music" }
+    ]
+  },
+  {
+    "index": 16,
+    "character": "চ",
+    "romanization": "cha",
+    "pronunciation": "ch",
+    "examples": [
+      { "word": "চিঠি (chithi)", "meaning": "letter" },
+      { "word": "চাদর (chador)", "meaning": "sheet" }
+    ]
+  },
+  {
+    "index": 17,
+    "character": "ছ",
+    "romanization": "chha",
+    "pronunciation": "chh",
+    "examples": [
+      { "word": "ছাতা (chata)", "meaning": "umbrella" },
+      { "word": "ছবি (chobi)", "meaning": "picture" }
+    ]
+  },
+  {
+    "index": 18,
+    "character": "জ",
+    "romanization": "ja",
+    "pronunciation": "j",
+    "examples": [
+      { "word": "জল (jol)", "meaning": "water" },
+      { "word": "জাম (jam)", "meaning": "jam" }
+    ]
+  },
+  {
+    "index": 19,
+    "character": "ঝ",
+    "romanization": "jha",
+    "pronunciation": "jh",
+    "examples": [
+      { "word": "ঝরনা (jhorona)", "meaning": "waterfall" },
+      { "word": "ঝাড়ু (jharu)", "meaning": "broom" }
+    ]
+  },
+  {
+    "index": 20,
+    "character": "ঞ",
+    "romanization": "nya",
+    "pronunciation": "ny",
+    "examples": [
+      { "word": "আঞ্চলিক (ancholik)", "meaning": "regional" },
+      { "word": "পঞ্চাশ (pochash)", "meaning": "fifty" }
+    ]
+  },
+  {
+    "index": 21,
+    "character": "ট",
+    "romanization": "ta",
+    "pronunciation": "t (retroflex)",
+    "examples": [
+      { "word": "টাকা (taka)", "meaning": "money" },
+      { "word": "টমেটো (tometo)", "meaning": "tomato" }
+    ]
+  },
+  {
+    "index": 22,
+    "character": "ঠ",
+    "romanization": "tha",
+    "pronunciation": "th (retroflex)",
+    "examples": [
+      { "word": "ঠাণ্ডা (thanda)", "meaning": "cold" },
+      { "word": "ঠিক (thik)", "meaning": "correct" }
+    ]
+  },
+  {
+    "index": 23,
+    "character": "ড",
+    "romanization": "da",
+    "pronunciation": "d (retroflex)",
+    "examples": [
+      { "word": "ডাক (dak)", "meaning": "mail" },
+      { "word": "ডাল (dal)", "meaning": "pulse" }
+    ]
+  },
+  {
+    "index": 24,
+    "character": "ঢ",
+    "romanization": "dha",
+    "pronunciation": "dh (retroflex)",
+    "examples": [
+      { "word": "ঢেউ (dheu)", "meaning": "wave" },
+      { "word": "ঢাক (dhak)", "meaning": "drum" }
+    ]
+  },
+  {
+    "index": 25,
+    "character": "ণ",
+    "romanization": "na",
+    "pronunciation": "n (retroflex)",
+    "examples": [
+      { "word": "মণি (moni)", "meaning": "jewel" },
+      { "word": "কাণ (kan)", "meaning": "ear" }
+    ]
+  },
+  {
+    "index": 26,
+    "character": "ত",
+    "romanization": "ta",
+    "pronunciation": "t",
+    "examples": [
+      { "word": "তারা (tara)", "meaning": "star" },
+      { "word": "তালুক (taluk)", "meaning": "district" }
+    ]
+  },
+  {
+    "index": 27,
+    "character": "থ",
+    "romanization": "tha",
+    "pronunciation": "th",
+    "examples": [
+      { "word": "থাম (thaam)", "meaning": "stop" },
+      { "word": "থাকা (thaka)", "meaning": "stay" }
+    ]
+  },
+  {
+    "index": 28,
+    "character": "দ",
+    "romanization": "da",
+    "pronunciation": "d",
+    "examples": [
+      { "word": "দুধ (dudh)", "meaning": "milk" },
+      { "word": "দিন (din)", "meaning": "day" }
+    ]
+  },
+  {
+    "index": 29,
+    "character": "ধ",
+    "romanization": "dha",
+    "pronunciation": "dh",
+    "examples": [
+      { "word": "ধান (dhaan)", "meaning": "paddy" },
+      { "word": "ধারণা (dharona)", "meaning": "concept" }
+    ]
+  },
+  {
+    "index": 30,
+    "character": "ন",
+    "romanization": "na",
+    "pronunciation": "n",
+    "examples": [
+      { "word": "নদী (nodi)", "meaning": "river" },
+      { "word": "নাম (naam)", "meaning": "name" }
+    ]
+  },
+  {
+    "index": 31,
+    "character": "প",
+    "romanization": "pa",
+    "pronunciation": "p",
+    "examples": [
+      { "word": "পানি (pani)", "meaning": "water" },
+      { "word": "পাখি (pakhi)", "meaning": "bird" }
+    ]
+  },
+  {
+    "index": 32,
+    "character": "ফ",
+    "romanization": "pha",
+    "pronunciation": "ph",
+    "examples": [
+      { "word": "ফল (phol)", "meaning": "fruit" },
+      { "word": "ফুল (phul)", "meaning": "flower" }
+    ]
+  },
+  {
+    "index": 33,
+    "character": "ব",
+    "romanization": "ba",
+    "pronunciation": "b",
+    "examples": [
+      { "word": "বই (boi)", "meaning": "book" },
+      { "word": "বাংলা (bangla)", "meaning": "Bengali" }
+    ]
+  },
+  {
+    "index": 34,
+    "character": "ভ",
+    "romanization": "bha",
+    "pronunciation": "bh",
+    "examples": [
+      { "word": "ভাই (bhai)", "meaning": "brother" },
+      { "word": "ভাবনা (bhavna)", "meaning": "thought" }
+    ]
+  },
+  {
+    "index": 35,
+    "character": "ম",
+    "romanization": "ma",
+    "pronunciation": "m",
+    "examples": [
+      { "word": "মা (maa)", "meaning": "mother" },
+      { "word": "মনে (mone)", "meaning": "in mind" }
+    ]
+  },
+  {
+    "index": 36,
+    "character": "য",
+    "romanization": "ja",
+    "pronunciation": "j/y",
+    "examples": [
+      { "word": "যাও (jao)", "meaning": "go" },
+      { "word": "যত (joto)", "meaning": "how much" }
+    ]
+  },
+  {
+    "index": 37,
+    "character": "র",
+    "romanization": "ra",
+    "pronunciation": "r",
+    "examples": [
+      { "word": "রাস্তা (rasta)", "meaning": "road" },
+      { "word": "রোজ (roj)", "meaning": "every day" }
+    ]
+  },
+  {
+    "index": 38,
+    "character": "ল",
+    "romanization": "la",
+    "pronunciation": "l",
+    "examples": [
+      { "word": "লাল (laal)", "meaning": "red" },
+      { "word": "লেখা (lekha)", "meaning": "writing" }
+    ]
+  },
+  {
+    "index": 39,
+    "character": "শ",
+    "romanization": "sha",
+    "pronunciation": "sh",
+    "examples": [
+      { "word": "শরীর (shoriir)", "meaning": "body" },
+      { "word": "শাল (shaal)", "meaning": "shawl" }
+    ]
+  },
+  {
+    "index": 40,
+    "character": "ষ",
+    "romanization": "sha",
+    "pronunciation": "sh (retroflex)",
+    "examples": [
+      { "word": "ষড়যন্ত্র (shashjontro)", "meaning": "conspiracy" },
+      { "word": "ষাট (shat)", "meaning": "sixty" }
+    ]
+  }
+]

@@ -1,0 +1,242 @@
+[
+  {
+    "index": 1,
+    "character": "ㄱ",
+    "romanization": "g",
+    "pronunciation": "giyeok",
+    "examples": [
+      { "word": "고양이 (goyangi)", "meaning": "cat" },
+      { "word": "기차 (gicha)", "meaning": "train" }
+    ]
+  },
+  {
+    "index": 2,
+    "character": "ㄴ",
+    "romanization": "n",
+    "pronunciation": "nieun",
+    "examples": [
+      { "word": "나무 (namu)", "meaning": "tree" },
+      { "word": "노래 (norae)", "meaning": "song" }
+    ]
+  },
+  {
+    "index": 3,
+    "character": "ㄷ",
+    "romanization": "d",
+    "pronunciation": "digeut",
+    "examples": [
+      { "word": "도시 (dosi)", "meaning": "city" },
+      { "word": "달 (dal)", "meaning": "moon" }
+    ]
+  },
+  {
+    "index": 4,
+    "character": "ㄹ",
+    "romanization": "r/l",
+    "pronunciation": "rieul",
+    "examples": [
+      { "word": "라디오 (radio)", "meaning": "radio" },
+      { "word": "리본 (ribon)", "meaning": "ribbon" }
+    ]
+  },
+  {
+    "index": 5,
+    "character": "ㅁ",
+    "romanization": "m",
+    "pronunciation": "mieum",
+    "examples": [
+      { "word": "마음 (ma-eum)", "meaning": "heart/mind" },
+      { "word": "물 (mul)", "meaning": "water" }
+    ]
+  },
+  {
+    "index": 6,
+    "character": "ㅂ",
+    "romanization": "b",
+    "pronunciation": "bieup",
+    "examples": [
+      { "word": "바다 (bada)", "meaning": "sea" },
+      { "word": "비 (bi)", "meaning": "rain" }
+    ]
+  },
+  {
+    "index": 7,
+    "character": "ㅅ",
+    "romanization": "s",
+    "pronunciation": "sieut",
+    "examples": [
+      { "word": "사과 (sagwa)", "meaning": "apple" },
+      { "word": "산 (san)", "meaning": "mountain" }
+    ]
+  },
+  {
+    "index": 8,
+    "character": "ㅇ",
+    "romanization": "ng",
+    "pronunciation": "ieung",
+    "examples": [
+      { "word": "아침 (achim)", "meaning": "morning" },
+      { "word": "의자 (uija)", "meaning": "chair" }
+    ]
+  },
+  {
+    "index": 9,
+    "character": "ㅈ",
+    "romanization": "j",
+    "pronunciation": "jieut",
+    "examples": [
+      { "word": "자동차 (jadongcha)", "meaning": "car" },
+      { "word": "저녁 (jeonyeok)", "meaning": "evening" }
+    ]
+  },
+  {
+    "index": 10,
+    "character": "ㅊ",
+    "romanization": "ch",
+    "pronunciation": "chieut",
+    "examples": [
+      { "word": "책 (chaek)", "meaning": "book" },
+      { "word": "초콜릿 (chokollit)", "meaning": "chocolate" }
+    ]
+  },
+  {
+    "index": 11,
+    "character": "ㅋ",
+    "romanization": "k",
+    "pronunciation": "kieuk",
+    "examples": [
+      { "word": "커피 (kopi)", "meaning": "coffee" },
+      { "word": "카메라 (kamera)", "meaning": "camera" }
+    ]
+  },
+  {
+    "index": 12,
+    "character": "ㅌ",
+    "romanization": "t",
+    "pronunciation": "tieut",
+    "examples": [
+      { "word": "태양 (taeyang)", "meaning": "sun" },
+      { "word": "토마토 (tomato)", "meaning": "tomato" }
+    ]
+  },
+  {
+    "index": 13,
+    "character": "ㅍ",
+    "romanization": "p",
+    "pronunciation": "pieup",
+    "examples": [
+      { "word": "펜 (pen)", "meaning": "pen" },
+      { "word": "파도 (pado)", "meaning": "wave" }
+    ]
+  },
+  {
+    "index": 14,
+    "character": "ㅎ",
+    "romanization": "h",
+    "pronunciation": "hieut",
+    "examples": [
+      { "word": "하늘 (haneul)", "meaning": "sky" },
+      { "word": "해 (hae)", "meaning": "sun/year" }
+    ]
+  },
+  {
+    "index": 15,
+    "character": "ㅏ",
+    "romanization": "a",
+    "pronunciation": "a",
+    "examples": [
+      { "word": "가방 (gabang)", "meaning": "bag" },
+      { "word": "말 (mal)", "meaning": "horse" }
+    ]
+  },
+  {
+    "index": 16,
+    "character": "ㅑ",
+    "romanization": "ya",
+    "pronunciation": "ya",
+    "examples": [
+      { "word": "야구 (yagu)", "meaning": "baseball" },
+      { "word": "양말 (yangmal)", "meaning": "socks" }
+    ]
+  },
+  {
+    "index": 17,
+    "character": "ㅓ",
+    "romanization": "eo",
+    "pronunciation": "eo",
+    "examples": [
+      { "word": "버스 (beoseu)", "meaning": "bus" },
+      { "word": "저기 (jeogi)", "meaning": "over there" }
+    ]
+  },
+  {
+    "index": 18,
+    "character": "ㅕ",
+    "romanization": "yeo",
+    "pronunciation": "yeo",
+    "examples": [
+      { "word": "여자 (yeoja)", "meaning": "woman" },
+      { "word": "연필 (yeonpil)", "meaning": "pencil" }
+    ]
+  },
+  {
+    "index": 19,
+    "character": "ㅗ",
+    "romanization": "o",
+    "pronunciation": "o",
+    "examples": [
+      { "word": "오늘 (oneul)", "meaning": "today" },
+      { "word": "호수 (hosu)", "meaning": "lake" }
+    ]
+  },
+  {
+    "index": 20,
+    "character": "ㅛ",
+    "romanization": "yo",
+    "pronunciation": "yo",
+    "examples": [
+      { "word": "요리 (yori)", "meaning": "cooking" },
+      { "word": "요금 (yogeum)", "meaning": "fee" }
+    ]
+  },
+  {
+    "index": 21,
+    "character": "ㅜ",
+    "romanization": "u",
+    "pronunciation": "u",
+    "examples": [
+      { "word": "우산 (usan)", "meaning": "umbrella" },
+      { "word": "그루 (geuru)", "meaning": "group" }
+    ]
+  },
+  {
+    "index": 22,
+    "character": "ㅠ",
+    "romanization": "yu",
+    "pronunciation": "yu",
+    "examples": [
+      { "word": "유리 (yuri)", "meaning": "glass" },
+      { "word": "유명한 (yumyeonghan)", "meaning": "famous" }
+    ]
+  },
+  {
+    "index": 23,
+    "character": "ㅡ",
+    "romanization": "eu",
+    "pronunciation": "eu",
+    "examples": [
+      { "word": "늘 (neul)", "meaning": "always" },
+      { "word": "그림 (geurim)", "meaning": "picture" }
+    ]
+  },
+  {
+    "index": 24,
+    "character": "ㅣ",
+    "romanization": "i",
+    "pronunciation": "i",
+    "examples": [
+      { "word": "이름 (ireum)", "meaning": "name" },
+      { "word": "기억 (gieok)", "meaning": "memory" }
+    ]
+  }
+]

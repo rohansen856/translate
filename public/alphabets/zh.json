@@ -1,0 +1,262 @@
+[
+  {
+    "index": 1,
+    "character": "A",
+    "romanization": "a",
+    "pronunciation": "a",
+    "examples": [
+      { "word": "阿姨 (āyí)", "meaning": "aunt" },
+      { "word": "啊 (à)", "meaning": "ah (exclamation)" }
+    ]
+  },
+  {
+    "index": 2,
+    "character": "B",
+    "romanization": "b",
+    "pronunciation": "bo",
+    "examples": [
+      { "word": "白 (bái)", "meaning": "white" },
+      { "word": "帮助 (bāngzhù)", "meaning": "help" }
+    ]
+  },
+  {
+    "index": 3,
+    "character": "C",
+    "romanization": "c",
+    "pronunciation": "ce",
+    "examples": [
+      { "word": "茶 (chá)", "meaning": "tea" },
+      { "word": "唱歌 (chànggē)", "meaning": "sing" }
+    ]
+  },
+  {
+    "index": 4,
+    "character": "D",
+    "romanization": "d",
+    "pronunciation": "de",
+    "examples": [
+      { "word": "大 (dà)", "meaning": "big" },
+      { "word": "东西 (dōngxi)", "meaning": "thing" }
+    ]
+  },
+  {
+    "index": 5,
+    "character": "E",
+    "romanization": "e",
+    "pronunciation": "e",
+    "examples": [
+      { "word": "饿 (è)", "meaning": "hungry" },
+      { "word": "额外 (éwài)", "meaning": "extra" }
+    ]
+  },
+  {
+    "index": 6,
+    "character": "F",
+    "romanization": "f",
+    "pronunciation": "fo",
+    "examples": [
+      { "word": "飞 (fēi)", "meaning": "fly" },
+      { "word": "服务 (fúwù)", "meaning": "service" }
+    ]
+  },
+  {
+    "index": 7,
+    "character": "G",
+    "romanization": "g",
+    "pronunciation": "ge",
+    "examples": [
+      { "word": "高 (gāo)", "meaning": "tall" },
+      { "word": "歌曲 (gēqǔ)", "meaning": "song" }
+    ]
+  },
+  {
+    "index": 8,
+    "character": "H",
+    "romanization": "h",
+    "pronunciation": "ha",
+    "examples": [
+      { "word": "好 (hǎo)", "meaning": "good" },
+      { "word": "汉语 (hànyǔ)", "meaning": "Chinese language" }
+    ]
+  },
+  {
+    "index": 9,
+    "character": "I",
+    "romanization": "i",
+    "pronunciation": "yi",
+    "examples": [
+      { "word": "一 (yī)", "meaning": "one" },
+      { "word": "意思 (yìsi)", "meaning": "meaning" }
+    ]
+  },
+  {
+    "index": 10,
+    "character": "J",
+    "romanization": "j",
+    "pronunciation": "ji",
+    "examples": [
+      { "word": "家 (jiā)", "meaning": "home" },
+      { "word": "计划 (jìhuà)", "meaning": "plan" }
+    ]
+  },
+  {
+    "index": 11,
+    "character": "K",
+    "romanization": "k",
+    "pronunciation": "ke",
+    "examples": [
+      { "word": "开 (kāi)", "meaning": "open" },
+      { "word": "看 (kàn)", "meaning": "look" }
+    ]
+  },
+  {
+    "index": 12,
+    "character": "L",
+    "romanization": "l",
+    "pronunciation": "le",
+    "examples": [
+      { "word": "来 (lái)", "meaning": "come" },
+      { "word": "老师 (lǎoshī)", "meaning": "teacher" }
+    ]
+  },
+  {
+    "index": 13,
+    "character": "M",
+    "romanization": "m",
+    "pronunciation": "mo",
+    "examples": [
+      { "word": "妈 (mā)", "meaning": "mom" },
+      { "word": "明天 (míngtiān)", "meaning": "tomorrow" }
+    ]
+  },
+  {
+    "index": 14,
+    "character": "N",
+    "romanization": "n",
+    "pronunciation": "ne",
+    "examples": [
+      { "word": "你 (nǐ)", "meaning": "you" },
+      { "word": "年 (nián)", "meaning": "year" }
+    ]
+  },
+  {
+    "index": 15,
+    "character": "O",
+    "romanization": "o",
+    "pronunciation": "o",
+    "examples": [
+      { "word": "哦 (ò)", "meaning": "oh (exclamation)" },
+      { "word": "偶尔 (ǒuěr)", "meaning": "occasionally" }
+    ]
+  },
+  {
+    "index": 16,
+    "character": "P",
+    "romanization": "p",
+    "pronunciation": "po",
+    "examples": [
+      { "word": "朋友 (péngyou)", "meaning": "friend" },
+      { "word": "拍 (pāi)", "meaning": "pat" }
+    ]
+  },
+  {
+    "index": 17,
+    "character": "Q",
+    "romanization": "q",
+    "pronunciation": "qi",
+    "examples": [
+      { "word": "请 (qǐng)", "meaning": "please" },
+      { "word": "起床 (qǐchuáng)", "meaning": "get up" }
+    ]
+  },
+  {
+    "index": 18,
+    "character": "R",
+    "romanization": "r",
+    "pronunciation": "ri",
+    "examples": [
+      { "word": "人 (rén)", "meaning": "person" },
+      { "word": "日 (rì)", "meaning": "day" }
+    ]
+  },
+  {
+    "index": 19,
+    "character": "S",
+    "romanization": "s",
+    "pronunciation": "se",
+    "examples": [
+      { "word": "是 (shì)", "meaning": "is" },
+      { "word": "书 (shū)", "meaning": "book" }
+    ]
+  },
+  {
+    "index": 20,
+    "character": "T",
+    "romanization": "t",
+    "pronunciation": "te",
+    "examples": [
+      { "word": "天 (tiān)", "meaning": "sky/day" },
+      { "word": "他 (tā)", "meaning": "he" }
+    ]
+  },
+  {
+    "index": 21,
+    "character": "U",
+    "romanization": "u",
+    "pronunciation": "wu",
+    "examples": [
+      { "word": "屋子 (wūzi)", "meaning": "room" },
+      { "word": "五 (wǔ)", "meaning": "five" }
+    ]
+  },
+  {
+    "index": 22,
+    "character": "V",
+    "romanization": "v",
+    "pronunciation": "wu",
+    "examples": [
+      { "word": "微笑 (wēixiào)", "meaning": "smile" },
+      { "word": "万 (wàn)", "meaning": "ten thousand" }
+    ]
+  },
+  {
+    "index": 23,
+    "character": "W",
+    "romanization": "w",
+    "pronunciation": "wu",
+    "examples": [
+      { "word": "我 (wǒ)", "meaning": "I/me" },
+      { "word": "文化 (wénhuà)", "meaning": "culture" }
+    ]
+  },
+  {
+    "index": 24,
+    "character": "X",
+    "romanization": "x",
+    "pronunciation": "xi",
+    "examples": [
+      { "word": "小 (xiǎo)", "meaning": "small" },
+      { "word": "谢谢 (xièxie)", "meaning": "thank you" }
+    ]
+  },
+  {
+    "index": 25,
+    "character": "Y",
+    "romanization": "y",
+    "pronunciation": "yi",
+    "examples": [
+      { "word": "已经 (yǐjīng)", "meaning": "already" },
+      { "word": "爷爷 (yéye)", "meaning": "grandpa" }
+    ]
+  },
+  {
+    "index": 26,
+    "character": "Z",
+    "romanization": "z",
+    "pronunciation": "ze",
+    "examples": [
+      { "word": "在 (zài)", "meaning": "at" },
+      { "word": "桌子 (zhuōzi)", "meaning": "table" }
+    ]
+  }
+]

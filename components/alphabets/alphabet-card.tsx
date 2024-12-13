@@ -1,22 +1,16 @@
 "use client"
 
 import { useState } from "react"
+import { Alphabet } from "@/types"
 import { motion } from "framer-motion"
-import { Volume2 } from "lucide-react"
+import { ChevronRightCircle, Volume2 } from "lucide-react"
 
 import { useSpeech } from "@/lib/hooks/use-speech"
 import { Button } from "@/components/ui/button"
 import { Card } from "@/components/ui/card"
 
-interface AlphabetCardProps {
-  index: number
-  character: string
-  romanization: string
-  pronunciation: string
-  examples: Array<{
-    word: string
-    meaning: string
-  }>
+interface AlphabetCardProps extends Alphabet {
+  setSelectedAlphabet: (data: Alphabet) => void
 }
 
 export function AlphabetCard({
@@ -25,6 +19,7 @@ export function AlphabetCard({
   romanization,
   pronunciation,
   examples,
+  setSelectedAlphabet,
 }: AlphabetCardProps) {
   const [isFlipped, setIsFlipped] = useState(false)
   const { speak, isSpeaking } = useSpeech()
@@ -56,13 +51,9 @@ export function AlphabetCard({
             }}
             className="absolute right-2 top-2 opacity-50 hover:opacity-100"
           >
-            <Volume2
-              className={`size-4 ${isSpeaking ? "text-primary" : ""}`}
-            />
+            <Volume2 className={`size-4 ${isSpeaking ? "text-primary" : ""}`} />
           </Button>
-          <p
-            className="bg-secondary/50 absolute left-4 top-4 rounded-full border p-1 opacity-50 hover:opacity-100"
-          >
+          <p className="bg-secondary/50 absolute left-4 top-4 rounded-full border p-1 opacity-50 hover:opacity-100">
             {index}
           </p>
         </Card>
@@ -88,6 +79,22 @@ export function AlphabetCard({
               </ul>
             </div>
           </div>
+          <Button
+            variant="ghost"
+            size="icon"
+            className="text-secondary-foreground absolute bottom-2 right-2"
+            onClick={() =>
+              setSelectedAlphabet({
+                index,
+                character,
+                examples,
+                pronunciation,
+                romanization,
+              })
+            }
+          >
+            <ChevronRightCircle />
+          </Button>
         </Card>
       </motion.div>
     </div>
