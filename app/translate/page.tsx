@@ -1,10 +1,12 @@
 "use client"
 
 import { useState } from "react"
+import axios, { AxiosError } from "axios"
 import { motion } from "framer-motion"
 import { ArrowRight, Copy } from "lucide-react"
 
 import { Button } from "@/components/ui/button"
+import { toast } from "@/components/ui/use-toast"
 import { AnimatedGradientBackground } from "@/components/animated-gradient-background"
 import DashboardNav from "@/components/dashboard-nav"
 import { LanguageSelector } from "@/components/translate/language-selector"
@@ -19,13 +21,31 @@ export default function TranslatePage() {
   const [sourceLang, setSourceLang] = useState("en")
   const [targetLang, setTargetLang] = useState("es")
 
-  const handleTranslate = () => {
+  const handleTranslate = async () => {
     setIsTranslating(true)
-    // Simulate translation
-    setTimeout(() => {
-      setTranslatedText(sourceText)
+    try {
+      const req = await axios.post<{ translatedText: string }>(
+        "/api/translate",
+        {
+          text: sourceText,
+          targetLang,
+        }
+      )
+      if (req.status === 200) return setTranslatedText(req.data.translatedText)
+      toast({
+        title: "Error translating text",
+        variant: "destructive",
+      })
+    } catch (error) {
+      if (error instanceof AxiosError)
+        toast({
+          title: "Error translating text",
+          description: `code: ${error.code}, ${error.message}`,
+          variant: "destructive",
+        })
+    } finally {
       setIsTranslating(false)
-    }, 1000)
+    }
   }
 
   const handleSwapLanguages = () => {
@@ -36,20 +56,20 @@ export default function TranslatePage() {
   }
 
   return (
-    <div className="min-h-screen bg-background relative">
+    <div className="bg-background relative min-h-screen">
       <AnimatedGradientBackground />
       <DashboardNav />
 
-      <main className="container mx-auto px-4 py-8 relative">
+      <main className="container relative mx-auto px-4 py-8">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}
-          className="max-w-4xl mx-auto"
+          className="mx-auto max-w-4xl"
         >
-          <h1 className="text-3xl font-bold mb-8 gradient-text">Translate</h1>
+          <h1 className="gradient-text mb-8 text-3xl font-bold">Translate</h1>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+          <div className="grid grid-cols-1 gap-8 md:grid-cols-2">
             <div className="space-y-4">
               <LanguageSelector
                 value={sourceLang}
@@ -85,7 +105,7 @@ export default function TranslatePage() {
           </div>
 
           <motion.div
-            className="flex justify-center mt-8 space-x-4"
+            className="mt-8 flex justify-center space-x-4"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ delay: 0.3 }}
@@ -104,7 +124,7 @@ export default function TranslatePage() {
               ) : (
                 <>
                   Translate
-                  <ArrowRight className="ml-2 h-4 w-4" />
+                  <ArrowRight className="ml-2 size-4" />
                 </>
               )}
             </Button>

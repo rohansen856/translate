@@ -1,0 +1,332 @@
+[
+  {
+    "index": 1,
+    "character": "А",
+    "romanization": "A",
+    "pronunciation": "ah",
+    "examples": [
+      { "word": "Арбуз", "meaning": "watermelon" },
+      { "word": "Alma", "meaning": "apple" }
+    ]
+  },
+  {
+    "index": 2,
+    "character": "Б",
+    "romanization": "B",
+    "pronunciation": "b",
+    "examples": [
+      { "word": "Банан", "meaning": "banana" },
+      { "word": "Брат", "meaning": "brother" }
+    ]
+  },
+  {
+    "index": 3,
+    "character": "В",
+    "romanization": "V",
+    "pronunciation": "v",
+    "examples": [
+      { "word": "Вода", "meaning": "water" },
+      { "word": "Волк", "meaning": "wolf" }
+    ]
+  },
+  {
+    "index": 4,
+    "character": "Г",
+    "romanization": "G",
+    "pronunciation": "g",
+    "examples": [
+      { "word": "Город", "meaning": "city" },
+      { "word": "Гора", "meaning": "mountain" }
+    ]
+  },
+  {
+    "index": 5,
+    "character": "Д",
+    "romanization": "D",
+    "pronunciation": "d",
+    "examples": [
+      { "word": "Дом", "meaning": "house" },
+      { "word": "Друг", "meaning": "friend" }
+    ]
+  },
+  {
+    "index": 6,
+    "character": "Е",
+    "romanization": "Ye",
+    "pronunciation": "ye",
+    "examples": [
+      { "word": "Ель", "meaning": "spruce" },
+      { "word": "Есть", "meaning": "to eat" }
+    ]
+  },
+  {
+    "index": 7,
+    "character": "Ё",
+    "romanization": "Yo",
+    "pronunciation": "yo",
+    "examples": [
+      { "word": "Ёлка", "meaning": "Christmas tree" },
+      { "word": "Ёж", "meaning": "hedgehog" }
+    ]
+  },
+  {
+    "index": 8,
+    "character": "Ж",
+    "romanization": "Zh",
+    "pronunciation": "zh",
+    "examples": [
+      { "word": "Жираф", "meaning": "giraffe" },
+      { "word": "Жизнь", "meaning": "life" }
+    ]
+  },
+  {
+    "index": 9,
+    "character": "З",
+    "romanization": "Z",
+    "pronunciation": "z",
+    "examples": [
+      { "word": "Зима", "meaning": "winter" },
+      { "word": "Зонт", "meaning": "umbrella" }
+    ]
+  },
+  {
+    "index": 10,
+    "character": "И",
+    "romanization": "I",
+    "pronunciation": "ee",
+    "examples": [
+      { "word": "Игра", "meaning": "game" },
+      { "word": "Имя", "meaning": "name" }
+    ]
+  },
+  {
+    "index": 11,
+    "character": "Й",
+    "romanization": "Y",
+    "pronunciation": "y (short)",
+    "examples": [
+      { "word": "Йогурт", "meaning": "yogurt" },
+      { "word": "Край", "meaning": "edge" }
+    ]
+  },
+  {
+    "index": 12,
+    "character": "К",
+    "romanization": "K",
+    "pronunciation": "k",
+    "examples": [
+      { "word": "Кот", "meaning": "cat" },
+      { "word": "Книга", "meaning": "book" }
+    ]
+  },
+  {
+    "index": 13,
+    "character": "Л",
+    "romanization": "L",
+    "pronunciation": "l",
+    "examples": [
+      { "word": "Луна", "meaning": "moon" },
+      { "word": "Лес", "meaning": "forest" }
+    ]
+  },
+  {
+    "index": 14,
+    "character": "М",
+    "romanization": "M",
+    "pronunciation": "m",
+    "examples": [
+      { "word": "Мама", "meaning": "mom" },
+      { "word": "Море", "meaning": "sea" }
+    ]
+  },
+  {
+    "index": 15,
+    "character": "Н",
+    "romanization": "N",
+    "pronunciation": "n",
+    "examples": [
+      { "word": "Небо", "meaning": "sky" },
+      { "word": "Ночь", "meaning": "night" }
+    ]
+  },
+  {
+    "index": 16,
+    "character": "О",
+    "romanization": "O",
+    "pronunciation": "o",
+    "examples": [
+      { "word": "Озеро", "meaning": "lake" },
+      { "word": "Окно", "meaning": "window" }
+    ]
+  },
+  {
+    "index": 17,
+    "character": "П",
+    "romanization": "P",
+    "pronunciation": "p",
+    "examples": [
+      { "word": "Пес", "meaning": "dog" },
+      { "word": "Парк", "meaning": "park" }
+    ]
+  },
+  {
+    "index": 18,
+    "character": "Р",
+    "romanization": "R",
+    "pronunciation": "r",
+    "examples": [
+      { "word": "Рука", "meaning": "hand" },
+      { "word": "Река", "meaning": "river" }
+    ]
+  },
+  {
+    "index": 19,
+    "character": "С",
+    "romanization": "S",
+    "pronunciation": "s",
+    "examples": [
+      { "word": "Сон", "meaning": "dream" },
+      { "word": "Солнце", "meaning": "sun" }
+    ]
+  },
+  {
+    "index": 20,
+    "character": "Т",
+    "romanization": "T",
+    "pronunciation": "t",
+    "examples": [
+      { "word": "Тигр", "meaning": "tiger" },
+      { "word": "Трава", "meaning": "grass" }
+    ]
+  },
+  {
+    "index": 21,
+    "character": "У",
+    "romanization": "U",
+    "pronunciation": "oo",
+    "examples": [
+      { "word": "Утка", "meaning": "duck" },
+      { "word": "Ухо", "meaning": "ear" }
+    ]
+  },
+  {
+    "index": 22,
+    "character": "Ф",
+    "romanization": "F",
+    "pronunciation": "f",
+    "examples": [
+      { "word": "Фото", "meaning": "photo" },
+      { "word": "Фрукт", "meaning": "fruit" }
+    ]
+  },
+  {
+    "index": 23,
+    "character": "Х",
+    "romanization": "Kh",
+    "pronunciation": "kh (like Scottish 'loch')",
+    "examples": [
+      { "word": "Хлеб", "meaning": "bread" },
+      { "word": "Холод", "meaning": "cold" }
+    ]
+  },
+  {
+    "index": 24,
+    "character": "Ц",
+    "romanization": "Ts",
+    "pronunciation": "ts",
+    "examples": [
+      { "word": "Цветок", "meaning": "flower" },
+      { "word": "Цена", "meaning": "price" }
+    ]
+  },
+  {
+    "index": 25,
+    "character": "Ч",
+    "romanization": "Ch",
+    "pronunciation": "ch",
+    "examples": [
+      { "word": "Чай", "meaning": "tea" },
+      { "word": "Час", "meaning": "hour" }
+    ]
+  },
+  {
+    "index": 26,
+    "character": "Ш",
+    "romanization": "Sh",
+    "pronunciation": "sh",
+    "examples": [
+      { "word": "Шар", "meaning": "ball" },
+      { "word": "Школа", "meaning": "school" }
+    ]
+  },
+  {
+    "index": 27,
+    "character": "Щ",
+    "romanization": "Shch",
+    "pronunciation": "shch",
+    "examples": [
+      { "word": "Щека", "meaning": "cheek" },
+      { "word": "Щит", "meaning": "shield" }
+    ]
+  },
+  {
+    "index": 28,
+    "character": "Ъ",
+    "romanization": "Hard sign",
+    "pronunciation": "separates consonant from vowel",
+    "examples": [
+      { "word": "Объект", "meaning": "object" },
+      { "word": "Съезд", "meaning": "congress" }
+    ]
+  },
+  {
+    "index": 29,
+    "character": "Ы",
+    "romanization": "Y",
+    "pronunciation": "hard i sound",
+    "examples": [
+      { "word": "Мы", "meaning": "we" },
+      { "word": "Был", "meaning": "was" }
+    ]
+  },
+  {
+    "index": 30,
+    "character": "Ь",
+    "romanization": "Soft sign",
+    "pronunciation": "softens preceding consonant",
+    "examples": [
+      { "word": "Звать", "meaning": "to call" },
+      { "word": "Осень", "meaning": "autumn" }
+    ]
+  },
+  {
+    "index": 31,
+    "character": "Э",
+    "romanization": "E",
+    "pronunciation": "eh",
+    "examples": [
+      { "word": "Это", "meaning": "this" },
+      { "word": "Эпоха", "meaning": "era" }
+    ]
+  },
+  {
+    "index": 32,
+    "character": "Ю",
+    "romanization": "Yu",
+    "pronunciation": "yu",
+    "examples": [
+      { "word": "Юг", "meaning": "south" },
+      { "word": "Юмор", "meaning": "humor" }
+    ]
+  },
+  {
+    "index": 33,
+    "character": "Я",
+    "romanization": "Ya",
+    "pronunciation": "ya",
+    "examples": [
+      { "word": "Я", "meaning": "I" },
+      { "word": "Яблоко", "meaning": "apple" }
+    ]
+  }
+]

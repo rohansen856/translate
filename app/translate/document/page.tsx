@@ -1,10 +1,12 @@
 "use client"
 
 import { useState } from "react"
+import axios, { AxiosError } from "axios"
 import { AnimatePresence, motion } from "framer-motion"
 import { ArrowRight } from "lucide-react"
 
 import { Button } from "@/components/ui/button"
+import { toast } from "@/components/ui/use-toast"
 import { AnimatedGradientBackground } from "@/components/animated-gradient-background"
 import DashboardNav from "@/components/dashboard-nav"
 import { FileDropzone } from "@/components/translate/file-dropzone"
@@ -24,13 +26,32 @@ export default function FileTranslatePage() {
     setTranslatedContent("")
   }
 
-  const handleTranslate = () => {
+  const handleTranslate = async () => {
     setIsTranslating(true)
-    // Simulate translation
-    setTimeout(() => {
-      setTranslatedContent(fileContent)
+    try {
+      const req = await axios.post<{ translatedText: string }>(
+        "/api/translate",
+        {
+          text: fileContent,
+          targetLang,
+        }
+      )
+      if (req.status === 200)
+        return setTranslatedContent(req.data.translatedText)
+      toast({
+        title: "Error translating text",
+        variant: "destructive",
+      })
+    } catch (error) {
+      if (error instanceof AxiosError)
+        toast({
+          title: "Error translating text",
+          description: `code: ${error.code}, ${error.message}`,
+          variant: "destructive",
+        })
+    } finally {
       setIsTranslating(false)
-    }, 1500)
+    }
   }
 
   return (

@@ -29,8 +29,14 @@ export function AlphabetModal({ alphabet, onClose }: AlphabetModalProps) {
 
   return (
     <Dialog open={!!alphabet} onOpenChange={() => onClose()}>
-      <DialogContent className="max-h-screen max-w-3xl">
-        <p className="text-center text-[12rem]">{alphabet.character}</p>
+      <DialogContent
+        className="max-h-screen max-w-3xl"
+        aria-describedby="enlarged letters"
+      >
+        <DialogTitle>
+          <p className="text-center text-[12rem]">{alphabet.character}</p>
+        </DialogTitle>
+
         <p className="text-center text-3xl">{alphabet.pronunciation}</p>
         <DialogFooter className="relative">
           <Button
