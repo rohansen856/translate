@@ -15,6 +15,7 @@ import { AlphabetGrid } from "@/components/alphabets/alphabet-grid"
 import { AlphabetModal } from "@/components/alphabets/alphabet-modal"
 import { SearchAlphabets } from "@/components/alphabets/search-alphabets"
 import DashboardNav from "@/components/dashboard-nav"
+import { Footer } from "@/components/layout/footer"
 import { LanguageSelector } from "@/components/translate/language-selector"
 
 export default function AlphabetsPage() {
@@ -79,6 +80,7 @@ export default function AlphabetsPage() {
           onClose={() => setSelectedAlphabet(null)}
         />
       </main>
+      <Footer />
     </div>
   )
 }

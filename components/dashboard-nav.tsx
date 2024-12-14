@@ -6,6 +6,7 @@ import { GlobeIcon, LogOut, Settings } from "lucide-react"
 
 import { Button } from "@/components/ui/button"
 
+import { Logo } from "./logo"
 import { ModeToggle } from "./mode-toggle"
 
 export default function DashboardNav() {
@@ -15,7 +16,7 @@ export default function DashboardNav() {
     <nav className="border-b">
       <div className="container mx-auto flex h-16 items-center justify-between px-4">
         <Link href={"/"} className="flex items-center space-x-4">
-          <GlobeIcon className="text-primary size-6" />
+          <Logo />
           <span className="text-lg font-bold">Translate Hub</span>
         </Link>
 

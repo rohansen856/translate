@@ -4,6 +4,7 @@ import { motion } from "framer-motion"
 
 import { AnimatedGradientBackground } from "@/components/animated-gradient-background"
 import DashboardNav from "@/components/dashboard-nav"
+import { Footer } from "@/components/layout/footer"
 import { MultiTranslateForm } from "@/components/translate/multi-translate-form"
 
 export default function MultiTranslatePage() {
@@ -26,6 +27,7 @@ export default function MultiTranslatePage() {
           <MultiTranslateForm />
         </motion.div>
       </main>
+      <Footer />
     </div>
   )
 }

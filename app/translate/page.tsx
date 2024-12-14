@@ -9,6 +9,7 @@ import { Button } from "@/components/ui/button"
 import { toast } from "@/components/ui/use-toast"
 import { AnimatedGradientBackground } from "@/components/animated-gradient-background"
 import DashboardNav from "@/components/dashboard-nav"
+import { Footer } from "@/components/layout/footer"
 import { LanguageSelector } from "@/components/translate/language-selector"
 import { LanguageSwap } from "@/components/translate/language-swap"
 import { TranslationHistory } from "@/components/translate/translation-history"
@@ -135,6 +136,7 @@ export default function TranslatePage() {
           </div>
         </motion.div>
       </main>
+      <Footer />
     </div>
   )
 }

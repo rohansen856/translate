@@ -9,6 +9,7 @@ import { Button } from "@/components/ui/button"
 import { toast } from "@/components/ui/use-toast"
 import { AnimatedGradientBackground } from "@/components/animated-gradient-background"
 import DashboardNav from "@/components/dashboard-nav"
+import { Footer } from "@/components/layout/footer"
 import { FileDropzone } from "@/components/translate/file-dropzone"
 import { FilePreview } from "@/components/translate/file-preview"
 import { LanguageSelector } from "@/components/translate/language-selector"
@@ -142,6 +143,7 @@ export default function FileTranslatePage() {
           </div>
         </motion.div>
       </main>
+      <Footer />
     </div>
   )
 }

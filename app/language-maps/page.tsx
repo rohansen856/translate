@@ -9,6 +9,7 @@ import DashboardNav from "@/components/dashboard-nav"
 import { CountryGrid } from "@/components/language-maps/country-grid"
 import { CountryModal } from "@/components/language-maps/country-modal"
 import { SearchCountries } from "@/components/language-maps/search-countries"
+import { Footer } from "@/components/layout/footer"
 
 export default function LanguageMapsPage() {
   const [selectedCountry, setSelectedCountry] = useState<Country | null>(null)
@@ -43,6 +44,7 @@ export default function LanguageMapsPage() {
           />
         </motion.div>
       </main>
+      <Footer />
     </div>
   )
 }
