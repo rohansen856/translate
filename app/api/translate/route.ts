@@ -24,7 +24,6 @@ export async function POST(req: Request) {
     })
 
     const [translatedText] = await translate.translate(text, targetLang)
-    console.log(translatedText)
 
     return new Response(JSON.stringify({ translatedText }), { status: 200 })
   } catch (error) {

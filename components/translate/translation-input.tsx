@@ -57,7 +57,7 @@ export function TranslationInput({
         placeholder={placeholder}
         value={value}
         onChange={(e) => onChange?.(e.target.value)}
-        className="min-h-[200px] glass-morphism pr-12"
+        className="glass-morphism min-h-[200px] pr-12"
         readOnly={readOnly}
       />
       <div className="absolute right-2 top-2 flex flex-col space-y-2">
@@ -69,9 +69,9 @@ export function TranslationInput({
           className="hover:bg-primary/10"
         >
           {isSpeaking ? (
-            <VolumeX className="h-4 w-4" />
+            <VolumeX className="size-4" />
           ) : (
-            <Volume2 className="h-4 w-4" />
+            <Volume2 className="size-4" />
           )}
         </Button>
         {!readOnly && value && (
@@ -81,7 +81,7 @@ export function TranslationInput({
             onClick={() => onChange?.("")}
             className="hover:bg-primary/10"
           >
-            <RotateCcw className="h-4 w-4" />
+            <RotateCcw className="size-4" />
           </Button>
         )}
         {readOnly && (
@@ -91,7 +91,7 @@ export function TranslationInput({
             onClick={handleCopy}
             className="hover:bg-primary/10"
           >
-            <Copy className="h-4 w-4" />
+            <Copy className="size-4" />
           </Button>
         )}
       </div>
@@ -101,7 +101,7 @@ export function TranslationInput({
             initial={{ opacity: 0, y: 10 }}
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: 10 }}
-            className="absolute bottom-2 right-2 bg-primary text-primary-foreground px-3 py-1 rounded-md text-sm"
+            className="bg-primary text-primary-foreground absolute bottom-2 right-2 rounded-md px-3 py-1 text-sm"
           >
             Copied!
           </motion.div>

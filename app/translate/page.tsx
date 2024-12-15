@@ -21,9 +21,11 @@ export default function TranslatePage() {
   const [translatedText, setTranslatedText] = useState("")
   const [sourceLang, setSourceLang] = useState("en")
   const [targetLang, setTargetLang] = useState("es")
+  const [translationErr, setTranslationError] = useState<string | null>(null)
 
   const handleTranslate = async () => {
     setIsTranslating(true)
+    setTranslationError(null)
     try {
       const req = await axios.post<{ translatedText: string }>(
         "/api/translate",
@@ -38,12 +40,14 @@ export default function TranslatePage() {
         variant: "destructive",
       })
     } catch (error) {
-      if (error instanceof AxiosError)
+      if (error instanceof AxiosError) {
         toast({
           title: "Error translating text",
-          description: `code: ${error.code}, ${error.message}`,
+          description: `${error.code}, ${error.message}`,
           variant: "destructive",
         })
+        setTranslationError(`${error.code}, ${error.message}`)
+      }
     } finally {
       setIsTranslating(false)
     }
@@ -102,6 +106,11 @@ export default function TranslatePage() {
                 lang={targetLang}
                 readOnly
               />
+              {translationErr && (
+                <p className="text-destructive mt-1 text-sm">
+                  {translationErr}
+                </p>
+              )}
             </div>
           </div>
 
